@@ -68,17 +68,13 @@ export class Gedit extends Component {
     render() {
         return (
             <div className="w-full h-full relative flex gap-5 p-5  bg-[#282c34] text-white select-none ">
-                <a href="https://www.linkedin.com/in/aslamx3r/" className="flex flex-col h-max justify-center items-center" target="_blank">
+                <a href="https://fr.linkedin.com/in/adam-badaoui-7a5b20294/" className="flex flex-col h-max justify-center items-center" target="_blank">
                     <img src="/images/logos/linkedin.png" className="h-16 w-16"></img>
                     <span classname="text-center">linkedin</span>
                 </a>
-                <a href="mailto:x3rcyb@gmail.com" className="flex flex-col h-max justify-center items-center"  target="_blank">
+                <a href="mailto:badaoui.adam.pro@gmail.com" className="flex flex-col h-max justify-center items-center"  target="_blank">
                     <img src="/images/logos/email.png" className="h-16 w-16"></img>
                     <span>mail</span>
-                </a>
-                <a href="https://medium.com/@x3r" className="flex flex-col h-max justify-center items-center" target="_blank">
-                    <img src="/images/logos/medium.png" className="h-16 w-16"></img>
-                    <span>medium</span>
                 </a>
                 <a href="https://discord.gg/96fThXW3" className="flex flex-col h-max justify-center items-center" target="_blank">
                     <img src="/images/logos/discord.png" className="h-16 w-16"></img>
