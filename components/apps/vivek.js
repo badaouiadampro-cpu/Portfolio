@@ -8,18 +8,18 @@ export class AboutVivek extends Component {
         this.screens = {};
         this.state = {
             screen: () => { },
-            active_screen: "about", // by default 'about' screen is active
+            active_screen: "A propos de moi", // by default 'about' screen is active
             navbar: false,
         }
     }
 
     componentDidMount() {
         this.screens = {
-            "about": <About />,
-            "education": <Education />,
-            "skills": <Skills />,
-            "projects": <Projects />,
-            "resume": <Resume />,
+            "A propos de moi": <About />,
+            "Scolarité": <Education />,
+            "Tableau de competence": <Skills />,
+            "Projects": <Projects />,
+            "Mon CV": <Resume />,
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
@@ -55,23 +55,23 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about aslam" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="A propos de moi" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="Scolarité" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="Mes competences" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="Mes projets" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="aslam's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="Mon CV" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
             </>
@@ -122,7 +122,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">Je suis <span className=" font-medium">Etudiant en BTS SIO</span> currently pursuing Diploma In Cyber Defence, and now I'm looking for full-time CyberSecurity roles! ( Hit me up <a className='text-underline' href='mailto:x3rcyb@gmail.com'><u>x3rcyb@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">I enjoy delving into cybersecurity research and practicing ethical hacking techniques. </li>
                 <li className=" mt-3 list-time">When I'm not immersed in cybersecurity, you'll find me diving into Movies, exploring CyberSecurity forums, or watching informative CyberSecurity channels like<a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noreferrer"> David Bombal's videos.</a></li>
                 <li className=" mt-3 list-star"> My interests extend to utilizing electronic components and designing web applications.</li>
