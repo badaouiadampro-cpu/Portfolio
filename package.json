@@ -1,8 +1,8 @@
 {
-  "name": "kali-linux-portfolio",
+  "name": "adam-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://github.com/x3rcyb/",
+  "homepage": "https://github.com/badaouiadampro-cpu/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
