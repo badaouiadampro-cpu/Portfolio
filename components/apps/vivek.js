@@ -297,15 +297,15 @@ function Skills() {
             </div>
 
             <p className="w-10/12 text-sm md:text-base">
-                Voici un tableau récapitulatif de mes compétences que je compléterai au fur et à mesure
-                de mes projets et de ma progression :
+                Voici les principales compétences du BTS SIO que j&apos;ai mobilisées. 
+                Je complèterai les outils, le niveau et les remarques au fur et à mesure de mes projets.
             </p>
 
             <div className="w-10/12 mt-4 overflow-x-auto">
                 <table className="min-w-full text-xs md:text-sm border border-gray-600 border-collapse">
                     <thead>
                         <tr className="bg-gray-800">
-                            <th className="border border-gray-600 px-2 py-1 text-left">Domaine</th>
+                            <th className="border border-gray-600 px-2 py-1 text-left">Compétence</th>
                             <th className="border border-gray-600 px-2 py-1 text-left">Outils / Technologies</th>
                             <th className="border border-gray-600 px-2 py-1 text-left">Niveau</th>
                             <th className="border border-gray-600 px-2 py-1 text-left">Remarques / Projets liés</th>
@@ -313,7 +313,57 @@ function Skills() {
                     </thead>
                     <tbody>
                         <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Mettre à disposition des utilisateurs un service informatique
+                            </td>
                             <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Réaliser les tests d’intégration et d’acceptation d’un service
+                            </td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Accompagner les utilisateurs dans la mise en place d’un service
+                            </td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Organiser son développement professionnel
+                            </td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Mettre en place son environnement d’apprentissage personnel
+                            </td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Développer son identité professionnelle
+                            </td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-gray-600 px-2 py-1">
+                                Développer son projet professionnel
+                            </td>
                             <td className="border border-gray-600 px-2 py-1">À compléter</td>
                             <td className="border border-gray-600 px-2 py-1">À compléter</td>
                             <td className="border border-gray-600 px-2 py-1">À compléter</td>
@@ -323,12 +373,13 @@ function Skills() {
             </div>
 
             <p className="w-10/12 text-xs md:text-sm text-gray-300 mt-2">
-                (Tu pourras modifier les lignes du tableau directement dans le code pour détailler Linux,
-                réseaux, firewall, bases de données, etc.)
+                (Je compléterai ce tableau avec les services déployés, les outils utilisés et les projets 
+                comme WebLab, FireLab, GSB Frais, etc.)
             </p>
         </>
     );
 }
+
 
 /* =========================
    SECTION : PROJETS
