@@ -296,85 +296,24 @@ function Skills() {
                 </div>
             </div>
 
-            <p className="w-10/12 text-sm md:text-base">
-                Voici les principales compétences du BTS SIO que j&apos;ai mobilisées. 
-                Je complèterai les outils, le niveau et les remarques au fur et à mesure de mes projets.
+            <p className="w-10/12 text-sm md:text-base text-center">
+                Le tableau de compétences sera bientôt disponible.  
+                Une fois finalisé, il sera accessible ici sous forme de fichier PDF.
             </p>
 
-            <div className="w-10/12 mt-4 overflow-x-auto">
-                <table className="min-w-full text-xs md:text-sm border border-gray-600 border-collapse">
-                    <thead>
-                        <tr className="bg-gray-800">
-                            <th className="border border-gray-600 px-2 py-1 text-left">Compétence</th>
-                            <th className="border border-gray-600 px-2 py-1 text-left">Outils / Technologies</th>
-                            <th className="border border-gray-600 px-2 py-1 text-left">Niveau</th>
-                            <th className="border border-gray-600 px-2 py-1 text-left">Remarques / Projets liés</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Mettre à disposition des utilisateurs un service informatique
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Réaliser les tests d’intégration et d’acceptation d’un service
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Accompagner les utilisateurs dans la mise en place d’un service
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Organiser son développement professionnel
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Mettre en place son environnement d’apprentissage personnel
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Développer son identité professionnelle
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                        <tr>
-                            <td className="border border-gray-600 px-2 py-1">
-                                Développer son projet professionnel
-                            </td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                            <td className="border border-gray-600 px-2 py-1">À compléter</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div className="mt-6 flex justify-center w-full">
+                <a
+                    href="./files/tableau-competences.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-4 py-2 bg-ub-orange text-white rounded hover:bg-opacity-80 transition duration-150"
+                >
+                    Ouvrir le tableau de compétences
+                </a>
             </div>
 
-            <p className="w-10/12 text-xs md:text-sm text-gray-300 mt-2">
-                (Je compléterai ce tableau avec les services déployés, les outils utilisés et les projets 
-                comme WebLab, FireLab, GSB Frais, etc.)
+            <p className="w-10/12 text-xs md:text-sm text-gray-300 mt-4 text-center">
+                (Tu pourras remplacer ce PDF dès que ton tableau sera finalisé.)
             </p>
         </>
     );
