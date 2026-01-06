@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="50" viewBox="0 0 39 50">
+  <!-- Background -->
+  <rect x="0" y="0" width="39" height="50" fill="#333333"></rect>
+
+  <!-- Battery head -->
+  <rect x="16" y="5" width="7" height="5" rx="1" fill="#FFFFFF"></rect>
+
+  <!-- Battery outline -->
+  <rect x="7" y="9" width="25" height="34" rx="3" fill="none" stroke="#FFFFFF" stroke-width="3"></rect>
+
+  <!-- Battery level (100%) -->
+  <rect x="11" y="13" width="17" height="26" rx="1" fill="#FFFFFF"></rect>
+</svg>
