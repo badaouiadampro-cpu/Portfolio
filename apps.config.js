@@ -20,7 +20,7 @@ const apps = [
     },
     {
         id: "calc",
-        title: "Calc",
+        title: "Calculatrice",
         icon: './themes/Yaru/apps/calc-kali.png',
         disabled: false,
         favourite: true,
@@ -65,7 +65,7 @@ const apps = [
     },
     {
         id: "settings",
-        title: "Settings",
+        title: "Paramètres",
         icon: './themes/Yaru/apps/gnome-control-center.png',
         disabled: false,
         favourite: true,
@@ -74,7 +74,7 @@ const apps = [
     },
     {
         id: "trash",
-        title: "Trash",
+        title: "Corbeille",
         icon: './themes/Yaru/system/user-trash-full.png',
         disabled: false,
         favourite: false,
