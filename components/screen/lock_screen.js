@@ -27,7 +27,7 @@ export default function LockScreen(props) {
                     <Clock onlyDay={true} />
                 </div>
                 <div className=" mt-16 text-base">
-                    Click or Press a key to unlock
+                    Cliquez ou appuyer sur ENTRÉE pour dévérouiller
                 </div>
             </div>
         </div>
