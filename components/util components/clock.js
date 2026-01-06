@@ -42,7 +42,7 @@ export default class Clock extends Component {
 
         let display_time;
         if (this.props.onlyTime) {
-            display_time = hour + ":" + minute + " " + meridiem;
+            display_time = hour + ":" + minute;
         }
         else if (this.props.onlyDay) {
             display_time = day + " " + month + " " + date;
