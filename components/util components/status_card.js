@@ -95,7 +95,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="kali wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>Samsung Galaxy S24 Ultra</span>
+						<span>Iphone A</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
@@ -112,8 +112,8 @@ export class StatusCard extends Component {
 					<div className="w-8">
 						<img width="16px" height="16px" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="kali battery" />
 					</div>
-					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span> 6h 8m left (90% available)</span>
+					<div className="w-full flex items-center justify-between text-gray-400">
+						<span> ∞h restant (100% disponibile)</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
@@ -128,7 +128,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/emblem-system-symbolic.svg" alt="kali settings" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Settings</span>
+						<span>Paramètres</span>
 					</div>
 				</div>
 				<div
@@ -139,7 +139,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/changes-prevent-symbolic.svg" alt="kali lock" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Lock</span>
+						<span>Verrouiller</span>
 					</div>
 				</div>
 				<div
@@ -150,7 +150,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/system-shutdown-symbolic.svg" alt="ubuntu power" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Power Off / Log Out</span>
+						<span>Arrêt / Déconnextion</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
