@@ -403,7 +403,7 @@ function Resume() {
     return (
         <iframe
             className="h-full w-full"
-            src="./files/adam-badaoui-cv.pdf" // mets ton vrai fichier ici
+            src="./files/CV-Badaoui-Adam.pdf" // mets ton vrai fichier ici
             title="CV Adam Badaoui"
             frameBorder="0"
         ></iframe>
