@@ -3,25 +3,19 @@ import React from 'react'
 function DefaultMenu(props) {
     return (
         <div id="default-menu" className={(props.active ? " block " : " hidden ") + " cursor-default w-52 context-menu-bg border text-left border-gray-900 rounded text-white py-4 absolute z-50 text-sm"}>
-            <a rel="noreferrer noopener" href="https://github.com/x3rcyb/kali-linux-portfolio" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🌟🏗️</span> <span className="ml-2">Star this Project</span>
-            </a>
-            <a rel="noreferrer noopener" href="https://github.com/x3rcyb/kali-linux-portfolio/issues" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🐞❗</span> <span className="ml-2">Report bugs</span>
-            </a>
             <Devider />
-            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/aslamx3r/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🙋‍♂️🔗</span> <span className="ml-2">Follow on <strong>Linkedin</strong></span>
+            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/adam-badaoui-7a5b20294/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+                <span className="ml-5">🙋‍♂️🔗</span> <span className="ml-2">Mon <strong>Linkedin</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="https://github.com/x3rcyb" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🐈🤝</span> <span className="ml-2">Follow on <strong>Github</strong></span>
+            <a rel="noreferrer noopener" href="https://github.com/badaouiadampro-cpu" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+                <span className="ml-5">🐈🤝</span> <span className="ml-2">Mon <strong>Github</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="mailto:x3rcyb@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">👋📥</span> <span className="ml-2">Contact Me</span>
+            <a rel="noreferrer noopener" href="mailto:badaoui.adam.pro@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+                <span className="ml-5">👋📥</span> <span className="ml-2">Contactez moi</span>
             </a>
             <Devider />
             <div onClick={() => { localStorage.clear(); window.location.reload() }} className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">🔁🧹</span> <span className="ml-2">Reset Ubuntu</span>
+                <span className="ml-5">🔁🧹</span> <span className="ml-2">Relancer Kali</span>
             </div>
         </div>
     )
