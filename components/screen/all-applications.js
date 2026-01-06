@@ -75,7 +75,7 @@ export class AllApplications extends React.Component {
                     <div className={"flex w-2/3 h-full items-center pl-2 pr-2 bg-white border-black border-width-2 rounded-xl overflow-hidden md:w-1/3 "}>
                         <img className={"w-5 h-5"} alt="search icon" src={'./images/logos/search.png'} />
                         <input className={"w-3/4 p-1 bg-transparent focus:outline-none"}
-                            placeholder="Type to Search "
+                            placeholder="Rechercher"
                             value={this.state.query}
                             onChange={this.handleChange} />
                     </div>
@@ -85,12 +85,12 @@ export class AllApplications extends React.Component {
                 </div>
                 <div className={"flex align-center justify-center w-full fixed bottom-0 mb-15 pr-20  md:pr-20 "}>
                     <div className={"w-1/4 text-center group text-white bg-transparent cursor-pointer items-center"} onClick={this.handleSwitch.bind(this, 1)}>
-                        <h4>Frequent</h4>
+                        <h4>Récents</h4>
                         {this.state.category === 1 ? <div className={"h-1 mt-1 bg-ub-orange self-center"} />
                             : <div className={"h-1 mt-1 bg-transparent group-hover:bg-white "} />}
                     </div>
                     <div className={"w-1/4 text-center group text-white bg-transparent cursor-pointer items-center"} onClick={this.handleSwitch.bind(this, 0)}>
-                        <h4>All</h4>
+                        <h4>Tous</h4>
                         {this.state.category === 0 ? <div className={"h-1 mt-1 bg-ub-orange self-center"} />
                             : <div className={"h-1 mt-1 bg-transparent group-hover:bg-white"} />}
                     </div>
