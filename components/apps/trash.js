@@ -65,7 +65,7 @@ export class Trash extends Component {
         return (
             <div className="flex-grow flex flex-col justify-center items-center">
                 <img className=" w-24" src="./themes/Yaru/status/user-trash-symbolic.svg" alt="Ubuntu Trash" />
-                <span className="font-bold mt-4 text-xl px-1 text-gray-400">Trash is Empty</span>
+                <span className="font-bold mt-4 text-xl px-1 text-gray-400">La corbeille est pleine</span>
             </div>
         );
     }
@@ -93,7 +93,7 @@ export class Trash extends Component {
         return (
             <div className="w-full h-full flex flex-col bg-ub-cool-grey text-white select-none" style={{ backgroundColor: '#272a34' }}>
                 <div className="flex items-center justify-between w-full bg-ub-warm-grey bg-opacity-40 text-sm">
-                    <span className="font-bold ml-2" style={{ color: 'black' }}>Trash</span>
+                    <span className="font-bold ml-2" style={{ color: 'black' }}>Corbeille</span>
                     <div className="flex">
                         <div className="border border-black bg-black bg-opacity-50 px-3 py-1 my-1 mx-1 rounded text-gray-300">Restore</div>
                         <div onClick={this.emptyTrash} className="border border-black bg-black bg-opacity-50 px-3 py-1 my-1 mx-1 rounded hover:bg-opacity-80">Empty</div>
