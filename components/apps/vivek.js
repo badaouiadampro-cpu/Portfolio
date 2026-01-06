@@ -256,7 +256,7 @@ function Education() {
                         BTS NDRC
                     </div>
                     <div className="text-sm text-gray-400 mt-0.5">
-                        2023 - 2024 – Lycée Bois d&apos;Amour
+                        2023 - 2024 – Lycée Bois d&apos;Amour, Poitiers
                     </div>
                     <div className="text-sm md:text-base">
                         Formation en négociation, relation client et commerce, apportant une vision terrain et
@@ -269,7 +269,7 @@ function Education() {
                         Baccalauréat STMG
                     </div>
                     <div className="text-sm text-gray-400 mt-0.5">
-                        2022 - 2023 – Lycée Saint-Jacques de Compostelle
+                        2022 - 2023 – Lycée Saint-Jacques de Compostelle, Poitiers
                     </div>
                     <div className="text-sm md:text-base">
                         Sciences et technologies du management et de la gestion : gestion, droit, économie,
@@ -313,7 +313,7 @@ function Skills() {
             </div>
 
             <p className="w-10/12 text-xs md:text-sm text-gray-300 mt-4 text-center">
-                (Tu pourras remplacer ce PDF dès que ton tableau sera finalisé.)
+                ()
             </p>
         </>
     );
