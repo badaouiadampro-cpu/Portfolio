@@ -12,7 +12,7 @@ function BootingScreen(props) {
             </div>
             <img width="200px" height="100px" className="md:w-1/12 w:1/2" src="./themes/Yaru/status/Kali_Linux_font.png" alt="Ubuntu Name" />
             <div className="text-white mb-4">
-                <a className="underline" href="https//www.linkedin.com/in/adam-badaoui-7a5b20294" rel="noreferrer noopener" target="_blank">linkedin</a>
+                <a className="underline" href="https://www.linkedin.com/in/adam-badaoui-7a5b20294" rel="noreferrer noopener" target="_blank">linkedin</a>
                 <span className="font-bold mx-1">|</span>
                 <a href="https://github.com/badaouiadampro-cpu" rel="noreferrer noopener" target="_blank" className="underline">github</a>
             </div>
