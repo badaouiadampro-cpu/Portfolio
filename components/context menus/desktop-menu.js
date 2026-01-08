@@ -68,7 +68,7 @@ function DesktopMenu(props) {
             </div>
             <Devider />
             <div onClick={goFullScreen} className="w-full py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
-                <span className="ml-5">{isFullScreen ? "Exit" : "Enter"} Plein écran</span>
+                <span className="ml-5">{isFullScreen ? "Sortir du " : "Entrer en "} Plein écran</span>
             </div>
         </div>
     )
