@@ -4,7 +4,7 @@ import Head from 'next/head';
 export default function Meta() {
     return (
         <Head>
-
+            
             {/* Primary Meta Tags */}
             <title>Adam Badaoui - Portfolio | Systèmes & Réseaux</title>
             <meta charSet="utf-8" />
@@ -14,7 +14,9 @@ export default function Meta() {
             <meta name="author" content="Adam Badaoui" />
             <meta name="keywords"
                 content="adam badaoui, portfolio adam, bts sio sisr, administration système, réseau, linux, cybersécurité, portfolio kali linux" />
-            <meta name="robots" content="index, follow" />
+            <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+            <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="French" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
