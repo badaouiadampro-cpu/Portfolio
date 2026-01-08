@@ -113,7 +113,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="kali battery" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span> ∞ h restant (100% disponibile)</span>
+						<span> ∞ h restant ( 100% )</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
