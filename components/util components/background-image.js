@@ -7,6 +7,7 @@ export default function BackgroundImage(props) {
         "wall-3": "./images/wallpapers/wallpaper3.jpg",
         "wall-4": "./images/wallpapers/wallpaper4.png",
         "wall-5": "./images/wallpapers/wallpaper5.jpg",
+        "wall-6": "./images/wallpapers/wallpaper6.jpg",
       
     };
     return (
