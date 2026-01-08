@@ -15,7 +15,8 @@ export default function Meta() {
             <meta name="keywords"
                 content="adam badaoui, portfolio adam, bts sio sisr, administration système, réseau, linux, cybersécurité, portfolio kali linux" />
             <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
-            <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+            <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+
 
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="French" />
