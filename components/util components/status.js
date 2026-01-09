@@ -23,7 +23,7 @@ export default function Status() {
       <span className="mx-1.5">
         <img
           width="16px" height="16px"
-          src="./themes/Yaru/status/battery-good-symbolic.svg"
+          src="./themes/Yaru/status/gpm-primary-100-charging.svg"
           alt="ubuntu battry"
           className="inline status-symbol w-4 h-4"
         />
