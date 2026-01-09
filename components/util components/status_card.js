@@ -110,7 +110,7 @@ export class StatusCard extends Component {
 				</div>
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="kali battery" />
+						<img width="16px" height="16px" src="./themes/Yaru/status/gpm-primary-100-charging.svg" alt="kali battery" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
 						<span> ∞ h restant ( 100% )</span>
