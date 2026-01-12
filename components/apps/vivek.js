@@ -320,7 +320,7 @@ function Projects() {
         {
             name: "WebLab – Infrastructure multi-VM",
             date: "2024",
-            pdf: "./files/projet-weblab.pdf", // à créer dans public/files/
+            pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf", // à créer dans public/files/
             description: [
                 "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP chrooté, etc.",
                 "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
