@@ -329,7 +329,7 @@ function Projects() {
         {
             name: "Firewall - Sophos XGS",
             date: "2024",
-            pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf", // à créer dans public/files/
+            pdf: "./files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf", // à créer dans public/files/
             description: [
                 "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau à la demande d'une commune.",
                 "Configuration, tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
