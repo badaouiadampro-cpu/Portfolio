@@ -327,12 +327,12 @@ function Projects() {
             ],
         },
         {
-            name: "FireLab – Firewall Fortigate",
+            name: "Firewall - Sophos XGS",
             date: "2024",
-            pdf: "./files/projet-firelab.pdf", // à créer dans public/files/
+            pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf", // à créer dans public/files/
             description: [
-                "Lab réseau avec firewall Fortigate 60D, gestion des VLAN, routage, règles de filtrage et NAT.",
-                "Tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
+                "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau à la demande d'une commune.",
+                "Configuration, tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
             ],
         },
         {
