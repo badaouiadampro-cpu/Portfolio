@@ -46,7 +46,7 @@ export default function Meta() {
             <meta property="og:description"
                 content="Portfolio professionnel d'Adam Badaoui. Projets systèmes, réseaux, sécurité, Linux et infrastructure." />
             <meta property="og:image" content="/images/logos/logo_1200.png" />
-            <meta property="og:url" content="https://tondomaine.com/" />
+            <meta property="og:url" content="https://ab-portfolio.fr/" />
             <meta property="og:site_name" content="Portfolio Adam Badaoui" />
             <meta property="og:locale" content="fr_FR" />
             <meta property="og:type" content="website" />
