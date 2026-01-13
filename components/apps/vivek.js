@@ -318,30 +318,102 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "WebLab – Infrastructure multi-VM",
-            date: "2024",
+            name: "GSB - WebLab",
+            date: "2025",
             pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf", // à créer dans public/files/
             description: [
-                "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP chrooté, etc.",
+                "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
                 "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
             ],
         },
         {
             name: "Firewall - Sophos XGS",
-            date: "2024",
+            date: "2026",
             pdf: "./files/THOMYRIS - SOPHOS - XGS - Procédure Initialisation FIREWALL V1.8.1.pdf", // à créer dans public/files/
             description: [
-                "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau à la demande d'une commune.",
+                "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau pour une collectivité territoriale.",
                 "Configuration, tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
             ],
         },
         {
-            name: "Application GSB Frais",
-            date: "2024",
-            pdf: "./files/projet-gsb-frais.pdf", // à créer dans public/files/
+            name: "Switch - Aruba",
+            date: "2026",
+            pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf", // à créer dans public/files/
             description: [
-                "Déploiement d’une application PHP / MariaDB pour la gestion de frais (projet GSB).",
-                "Séparation serveur web / serveur BDD, comptes SQL dédiés, durcissement minimal de la base.",
+                "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+                "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
+            ],
+        },
+        {
+            name: "Accès distant - VPN Sophos",
+            date: "2026",
+            pdf: "./files/THOMYRIS_SOPHOS_Procédure_vpn_connect_ssl.pdf", // à créer dans public/files/
+            description: [
+                "Installation et configuration du client VPN Sophos Connect dans un environnement professionnel afin de permettre l’accès distant sécurisé à l’infrastructure réseau.",
+                "Établissement du tunnel sécurisé et validation de l’accès aux ressources réseau et applications autorisées.",
+            ],
+        },
+        {
+            name: "Sécurisation des accès - Authentification forte Sophos (OTP)",
+            date: "2026",
+            pdf: "./files/THOMYRIS - SOPHOS - Initialisation authentification à double facteur.pdf", // à créer dans public/files/
+            description: [
+                "Mise en place de l’authentification forte (One-Time Password) sur un firewall Sophos afin de renforcer la sécurité des accès utilisateurs.",
+                "Configuration de l’authentification à double facteur via le UserPortal",
+            ],
+        },
+        {
+            name: "WiFi - Aruba Instant On",
+            date: "2026",
+            pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf", // à créer dans public/files/
+            description: [
+                "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP, permettant une gestion centralisée multi-clients avec affectation des licences, des équipements et des accès à Aruba Central.",
+                "Configuration et sécurisation des réseaux WiFi internes et invités : création de sites et de groupes, déploiement des SSID, paramétrage DHCP/VLAN, portail captif, règles de filtrage, mises à jour et initialisation locale des bornes.",
+            ],
+        },
+        {
+            name: "Sécurité des postes - Sophos Endpoint (Cryptoprotect)",
+            date: "2026",
+            pdf: "./files/THOMYRIS_SOPHOS_Cryptoprotect.pdf", // à créer dans public/files/
+            description: [
+                "Déploiement et administration de la solution Sophos Endpoint via Sophos Central pour assurer la protection antivirale, le contrôle applicatif et le filtrage web des postes et serveurs Windows et macOS des clients.",
+                "Préparation du programme d’installation, installation et désinstallation (standard ou forcée) des agents Sophos, avec gestion centralisée des postes, de la protection antialtération et des compatibilités systèmes.",
+            ],
+        },
+        {
+            name: "Messagerie - Configuration IMA",
+            date: "2026",
+            pdf: "./files/IMAP_Configuration_Mail.pdf", // à créer dans public/files/
+            description: [
+                "Configuration de boîtes mail hébergées sur un datacenter via Outlook, paramétrage IMAP/SMTP, ports, sécurité et authentification.",
+                "Gestion des mots de passe, respect des critères de sécurité, synchronisation, accès distant et utilisation des fonctionnalités de messagerie avancées.",
+            ],
+        },
+        {
+            name: "Switch - Aruba",
+            date: "2024",
+            pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf", // à créer dans public/files/
+            description: [
+                "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+                "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
+            ],
+        },
+        {
+            name: "Switch - Aruba",
+            date: "2024",
+            pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf", // à créer dans public/files/
+            description: [
+                "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+                "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
+            ],
+        },
+        {
+            name: "Switch - Aruba",
+            date: "2024",
+            pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf", // à créer dans public/files/
+            description: [
+                "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+                "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
             ],
         },
     ];
