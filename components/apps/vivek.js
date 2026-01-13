@@ -294,7 +294,7 @@ function Skills() {
 
             <div className="mt-6 flex justify-center w-full">
                 <a
-                    href="./files/tableau-competences.pdf"
+                    href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
                     target="_blank"
                     rel="noreferrer"
                     className="px-4 py-2 bg-ub-orange text-white rounded hover:bg-opacity-80 transition duration-150"
@@ -304,7 +304,7 @@ function Skills() {
             </div>
 
             <p className="w-10/12 text-xs md:text-sm text-gray-300 mt-4 text-center">
-                ()
+                (Ce fichier n'est pas définitif)
             </p>
         </>
     );
