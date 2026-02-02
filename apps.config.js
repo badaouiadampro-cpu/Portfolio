@@ -29,7 +29,7 @@ const apps = [
     },
     {
         id: "about-adam",
-        title: "<span className="font-bold">CLIQUEZ - ICI</span> À propos d’Adam",
+        title: (CLIQUEZ - ICI) À propos d’Adam",
         icon: './themes/Yaru/system/mc-home-logo.png',
         disabled: false,
         favourite: true,
