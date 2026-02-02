@@ -23,7 +23,6 @@ export default class Navbar extends Component {
 					Bienvenue
 				</div>
 				<div
-			<div
 					tabIndex="0"
 					className={
 						'pl-2 pr-2 text-xs md:text-sm outline-none transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1'
