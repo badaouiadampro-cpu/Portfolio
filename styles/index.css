@@ -202,12 +202,14 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
 .list-arrow {
     list-style: "⇀";
 }
+/* Desktop applications (icons on desktop) */
 .desktop-app {
-  width: 96px;
-  margin-bottom: 24px;
+    width: 96px;          /* largeur du bloc de l'app */
+    margin-bottom: 24px;  /* espace entre les apps */
+    text-align: center;
 }
 
 .desktop-app img {
-  width: 80px;
-  height: 80px;
+    width: 80px;          /* taille de l’icône */
+    height: 80px;
 }
