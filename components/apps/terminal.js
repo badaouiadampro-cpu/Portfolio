@@ -169,14 +169,14 @@ export class Terminal extends Component {
                     break;
                 }
                 if (words.length > 1) {
-                    result = "too many arguments, arguments must be <1.";
+                    result = "Trop d'arguments, le nombre d'arguments doit être <1.";
                     break;
                 }
                 if (this.child_directories[this.curr_dir_name].includes(rest)) {
                     this.current_directory += "/" + rest;
                     this.curr_dir_name = rest;
                 } else if (rest === "." || rest === ".." || rest === "../") {
-                    result = "Type only 'cd'😉 to go back";
+                    result = "Tapez uniquement 'cd' pour revenir en arriere";
                     break;
                 } else {
                     result = `bash: cd: ${words}: No such file or directory`;
@@ -186,7 +186,7 @@ export class Terminal extends Component {
                 let target = words[0];
                 if (!target) target = this.curr_dir_name;
                 if (words.length > 1) {
-                    result = "too many arguments, arguments must be <1.";
+                    result = "Trop d'arguments, le nombre d'arguments doit être <1.";
                     break;
                 }
                 if (target in this.child_directories) {
@@ -205,7 +205,7 @@ export class Terminal extends Component {
                 this.closeTerminal();
                 return;
             default:
-                result = `Command '${main}' not found, or not yet implemented.`;
+                result = `result = "Commande '" + main + "' non trouver, ou non implémenter.<br>Commandes possibles : [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-Adam, todoist, trash, settings, sendmsg]";.`;
         }
         document.getElementById(`row-result-${rowId}`).innerHTML = result;
         this.appendTerminalRow();
