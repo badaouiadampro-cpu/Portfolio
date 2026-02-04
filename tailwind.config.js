@@ -58,17 +58,3 @@ module.exports = {
   },
   plugins: [],
 }
-<div className="
-  h-full w-full
-  flex flex-col
-  items-end justify-start
-  content-start
-  flex-wrap-reverse
-  gap-6
-  pt-8
-  bg-transparent
-  relative
-  overflow-hidden
-  overscroll-none
-  window-parent
-">
