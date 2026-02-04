@@ -210,6 +210,6 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
 }
 
 .desktop-app img {
-    width: 80px;          /* taille de l’icône */
-    height: 80px;
+    width: 65px;          /* taille de l’icône */
+    height: 65px;
 }
