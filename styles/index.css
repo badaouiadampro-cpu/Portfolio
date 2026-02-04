@@ -204,7 +204,7 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
 }
 /* Desktop applications (icons on desktop) */
 .desktop-app {
-    width: 96px;          /* largeur du bloc de l'app */
+    width: 120px;          /* largeur du bloc de l'app */
     margin-bottom: 24px;  /* espace entre les apps */
     text-align: center;
 }
