@@ -202,3 +202,12 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
 .list-arrow {
     list-style: "⇀";
 }
+.desktop-app {
+  width: 96px;
+  margin-bottom: 24px;
+}
+
+.desktop-app img {
+  width: 80px;
+  height: 80px;
+}
