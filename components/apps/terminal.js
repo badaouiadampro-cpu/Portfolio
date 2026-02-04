@@ -12,7 +12,7 @@ export class Terminal extends Component {
         this.commandes_precedentes = []; // historique des commandes
         this.index_commandes = -1; // index pour naviguer dans l'historique
         this.sous_repertoires = { // structure des dossiers et contenus
-            root: ["Apropos", "Document-perso", "Skills", "Langues", "Loisirs"],
+            root: ["Apropos", "Document-perso", "Skills", "Intérêts", "Langues"],
             Apropos: ["Étudiant en BTS SIO, j’ai débuté par une première expérience en support\ninformatique où j’ai assuré l’assistance aux utilisateurs et la résolution\n d’incidents. J’ai ensuite intégré XEFI, ce qui m’a permis d’acquérir une\n approche plus professionnelle et technique notamment en support et\n déploiement d’infrastructures réseau (pare-feu, routeurs,...). Issu d’une\n formation commerciale, je possède un bon sens de la communication,\n une compréhension des besoins clients et une capacité à vulgariser des\n sujets techniques. Fort de ces bases en réseaux et commerce, je\n souhaite poursuivre mon parcours en alternance afin de me spécialiser\n en cybersécurité."],
             Skills: ["Installation, configuration et gestion de serveurs Linux et Windows", "Gestion des utilisateurs, droits et stratégies de groupe (Active Directory), GPO", "Mise en place de services réseaux : DHCP, DNS, SFTP, Apache,SSH, VPN, Téléphonie IP", "Configuration et maintenance d’équipements réseau : switchs, routeurs, firewalls"],
             Intérêts: ["OSINT", "Cybersécurité", "Ingenierie Sociale"],
