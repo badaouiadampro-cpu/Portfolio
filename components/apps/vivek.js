@@ -169,113 +169,163 @@ export const displayAboutVivek = () => {
    SECTION : À PROPOS
    ========================= */
 
-function AboutCyberPro() {
+/* =========================
+   SECTION : PRÉSENTATION
+========================= */
+
+function About() {
   return (
-    <section className="min-h-screen bg-zinc-950 text-zinc-200 flex justify-center">
-      <div className="max-w-4xl w-full px-6 py-16 space-y-12">
+    <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
-        <h1 className="text-4xl font-bold text-center">Présentation</h1>
-
-        <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Qui suis-je ?</h2>
-          <p>
-            Je m’appelle Adam Badaoui, étudiant en BTS SIO (Services Informatiques aux Organisations).
-            Passionné par l’informatique, les réseaux et la sécurité des systèmes, je construis mon
-            parcours avec un objectif clair : me spécialiser en cybersécurité et devenir un
-            professionnel fiable, rigoureux et utile.
-          </p>
-          <p>
-            Mon profil est un peu particulier : avant l’informatique, j’ai suivi une formation
-            commerciale (STMG puis BTS NDRC). Cette double compétence technique et relationnelle me
-            permet aujourd’hui de comprendre aussi bien les enjeux techniques que les besoins humains
-            et métiers. Je sais analyser une problématique, la traduire en solution concrète et
-            l’expliquer simplement.
-          </p>
-        </div>
-
-        <div className="space-y-6">
-          <h2 className="text-xl font-semibold">Mon parcours</h2>
-
-          <div>
-            <h3 className="font-medium">Formation</h3>
-            <ul className="list-disc list-inside">
-              <li>BTS SIO – Services Informatiques aux Organisations (2024 – 2026)</li>
-              <li>BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)</li>
-              <li>Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-medium">Expériences professionnelles</h3>
-            <p className="mt-2 font-medium">
-              Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
-            </p>
-            <p>
-              Lors de cette expérience, j’ai évolué dans un environnement professionnel exigeant,
-              orienté infrastructure et services IT.
-            </p>
-            <ul className="list-disc list-inside">
-              <li>Assistance aux utilisateurs (support, dépannage, accompagnement)</li>
-              <li>Déploiement et administration de services réseau : VPN, DNS, DHCP</li>
-              <li>Installation et gestion d’infrastructures réseau : pare-feu, routeurs, switchs</li>
-              <li>Déploiement et gestion d’un service de téléphonie IP</li>
-            </ul>
-            <p className="mt-2">
-              Cette expérience m’a permis de gagner en autonomie, en rigueur et en compréhension des
-              environnements professionnels réels.
-            </p>
-
-            <p className="mt-4 font-medium">
-              Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
-            </p>
-            <p>Stage orienté systèmes, réseaux et administration.</p>
-            <ul className="list-disc list-inside">
-              <li>Installation et administration de serveurs Linux et Windows</li>
-              <li>Gestion des utilisateurs, droits et stratégies de groupe (Active Directory, GPO)</li>
-              <li>Mise en place de services réseau : DHCP, DNS, SFTP, Apache, SSH, VPN</li>
-              <li>Configuration et maintenance d’équipements réseau</li>
-              <li>Participation à la maintenance du parc informatique</li>
-              <li>Mise à jour de la documentation technique</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold">Compétences techniques</h2>
-          <p className="mt-2 font-medium">Systèmes & Réseaux</p>
-          <p>Windows Server & Linux, Active Directory, GPO, DHCP, DNS, VPN, SSH, Apache, Téléphonie IP</p>
-
-          <p className="mt-2 font-medium">Réseau & Sécurité</p>
-          <p>Configuration de pare-feu, routeurs, switchs, bases en sécurisation des infrastructures</p>
-
-          <p className="mt-2 font-medium">Support & Méthodologie</p>
-          <p>Assistance utilisateurs, diagnostic d’incidents, documentation, travail en équipe</p>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold">Objectif professionnel</h2>
-          <p>
-            Mon objectif est clair : devenir expert en cybersécurité. Je souhaite poursuivre mon
-            parcours en alternance, renforcer mes compétences techniques, approfondir la sécurité
-            des systèmes et des réseaux, et contribuer activement à la protection des infrastructures
-            informatiques.
-          </p>
-          <p className="mt-2">
-            Je conçois l’informatique comme un domaine où la confiance, l’éthique et la responsabilité
-            sont essentielles. Chaque projet est pour moi une occasion de progresser, d’apprendre et
-            de viser l’excellence.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold">Centres d’intérêt</h2>
-          <p>Sport, Voyages, Théâtre associatif</p>
-        </div>
-
+      {/* TITRE */}
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide">
+        Présentation
       </div>
-    </section>
+
+      {/* CARD : QUI SUIS-JE */}
+      <div className="mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
+          Qui suis-je ?
+        </div>
+
+        <ul className="leading-tight tracking-tight text-sm md:text-base space-y-3">
+          <li>
+            Je m’appelle Adam Badaoui, étudiant en BTS SIO (Services Informatiques aux
+            Organisations). Passionné par l’informatique, les réseaux et la sécurité des
+            systèmes, je construis mon parcours avec un objectif clair : me spécialiser
+            en cybersécurité et devenir un professionnel fiable, rigoureux et utile.
+          </li>
+
+          <li>
+            Mon profil est un peu particulier : avant l’informatique, j’ai suivi une
+            formation commerciale (STMG puis BTS NDRC). Cette double compétence
+            technique et relationnelle me permet aujourd’hui de comprendre aussi bien
+            les enjeux techniques que les besoins humains et métiers. Je sais analyser
+            une problématique, la traduire en solution concrète et l’expliquer simplement.
+          </li>
+        </ul>
+      </div>
+
+      {/* CARD : PARCOURS */}
+      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
+          Mon parcours
+        </div>
+
+        <div className="text-center font-medium mb-2 text-pink-400">
+          Formation
+        </div>
+
+        <ul className="text-sm md:text-base space-y-3">
+          <li>
+            <span className="font-medium">
+              BTS SIO – Services Informatiques aux Organisations (2024 – 2026)
+            </span>
+            <br />
+            Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
+          </li>
+
+          <li>
+            <span className="font-medium">
+              BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
+            </span>
+            <br />
+            Acquisition de solides compétences en communication, analyse des besoins
+            clients et gestion de projets.
+          </li>
+
+          <li>
+            <span className="font-medium">
+              Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* CARD : EXPÉRIENCES */}
+      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <div className="text-center font-medium mb-4 text-pink-400">
+          Expériences professionnelles
+        </div>
+
+        <ul className="text-sm md:text-base space-y-6">
+          <li>
+            <span className="font-medium">
+              Technicien Informatique – XEFI Cissé (Janvier – Février 2026)
+            </span>
+            <br /><br />
+            Missions principales :
+            <br />- Assistance aux utilisateurs
+            <br />- Déploiement et administration de services réseau : VPN, DNS, DHCP
+            <br />- Installation et gestion d’infrastructures réseau
+            <br />- Déploiement et gestion d’un service de téléphonie IP
+          </li>
+
+          <li>
+            <span className="font-medium">
+              Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
+            </span>
+            <br /><br />
+            Missions réalisées :
+            <br />- Administration Linux & Windows
+            <br />- Active Directory, GPO
+            <br />- Services réseau : DHCP, DNS, SFTP, Apache, VPN
+            <br />- Maintenance du parc informatique
+          </li>
+        </ul>
+      </div>
+
+      {/* CARD : COMPÉTENCES */}
+      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <div className="text-center font-medium mb-4 text-pink-400">
+          Compétences techniques
+        </div>
+
+        <ul className="text-sm md:text-base space-y-4">
+          <li>
+            <span className="font-medium">Systèmes & Réseaux</span><br />
+            Windows Server, Linux, AD, GPO, DHCP, DNS, VPN, Apache
+          </li>
+
+          <li>
+            <span className="font-medium">Réseau & Sécurité</span><br />
+            Pare-feu, routeurs, switchs, bases de sécurisation
+          </li>
+
+          <li>
+            <span className="font-medium">Support & Méthodologie</span><br />
+            Assistance utilisateurs, diagnostic, documentation
+          </li>
+        </ul>
+      </div>
+
+      {/* CARD : LANGUES & OBJECTIF */}
+      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <div className="text-center font-medium mb-2 text-pink-400">Langues</div>
+        <div className="text-sm md:text-base text-center">
+          Français : courant · Arabe : courant · Anglais : B2
+        </div>
+
+        <div className="mt-6 text-center font-medium text-pink-400">
+          Objectif professionnel
+        </div>
+
+        <p className="mt-3 text-sm md:text-base text-center">
+          Devenir expert en cybersécurité et contribuer activement à la protection
+          des infrastructures informatiques avec rigueur, éthique et responsabilité.
+        </p>
+      </div>
+
+      {/* CONTACT */}
+      <div className="mt-8 mb-10 text-center text-sm md:text-base text-zinc-400">
+        📧 badaoui.adam.pro@gmail.com <br />
+        🌐 ab-portfolio.fr
+      </div>
+
+    </div>
   );
 }
+
 
 /* =========================
    SECTION : À PROPOS
