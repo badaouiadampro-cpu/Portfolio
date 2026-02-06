@@ -219,10 +219,6 @@ function About() {
           Formation
         </div>
 
-        <div className="text-center font-medium mb-2 text-pink-400">
-          Formation
-        </div>
-
         <ul className="text-sm md:text-base space-y-3">
           <li>
             <span className="font-medium">
@@ -258,7 +254,7 @@ function About() {
         <ul className="text-sm md:text-base space-y-6">
           <li>
             <span className="font-medium">
-              Technicien Informatique – XEFI Cissé (Janvier – Février 2026)
+              Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
             </span>
             <br /><br />
             Missions principales :
@@ -274,10 +270,10 @@ function About() {
             </span>
             <br /><br />
             Missions réalisées :
-            <br />- Administration Linux & Windows
-            <br />- Active Directory, GPO
-            <br />- Services réseau : DHCP, DNS, SFTP, Apache, VPN
-            <br />- Maintenance du parc informatique
+            <br />- Maintenance et au renouvellement du matériel informatique.
+            <br />- Active Directory
+            <br />- Assistance aux utilisateurs
+            <br />- Documentations des procédures réalisées
           </li>
         </ul>
       </div>
@@ -291,12 +287,12 @@ function About() {
         <ul className="text-sm md:text-base space-y-4">
           <li>
             <span className="font-medium">Systèmes & Réseaux</span><br />
-            Windows Server, Linux, AD, GPO, DHCP, DNS, VPN, Apache
+            Windows Server, Linux, AD, DHCP, DNS, VPN, Apache
           </li>
 
           <li>
             <span className="font-medium">Réseau & Sécurité</span><br />
-            Pare-feu, routeurs, switchs, bases de sécurisation
+            Pare-feu, routeurs, switchs
           </li>
 
           <li>
@@ -318,8 +314,9 @@ function About() {
         </div>
 
         <p className="mt-3 text-sm md:text-base text-center">
-          Devenir expert en cybersécurité et contribuer activement à la protection
-          des infrastructures informatiques avec rigueur, éthique et responsabilité.
+          Je souhaite développer mes compétences et acquérir une véritable expérience professionnelle grâce à une alternance dans le domaine informatique. 
+          La cybersécurité m’attire particulièrement : comprendre les menaces, protéger les systèmes et contribuer à la sécurité des infrastructures sont des aspects qui me motivent.
+          Je veux me spécialiser progressivement dans ce domaine, avec sérieux, éthique et sens des responsabilités.
         </p>
       </div>
 
