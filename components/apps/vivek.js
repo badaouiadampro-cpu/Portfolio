@@ -169,196 +169,112 @@ export const displayAboutVivek = () => {
    SECTION : À PROPOS
    ========================= */
 
-/* =========================
-   SECTION : PRÉSENTATION
-   ========================= */
+function AboutCyberPro() {
+  return (
+    <section className="min-h-screen bg-zinc-950 text-zinc-200 flex justify-center">
+      <div className="max-w-4xl w-full px-6 py-16 space-y-12">
 
-function About() {
-    return (
-        <>
-            {/* TITRE */}
-            <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div className="font-bold">Présentation</div>
-            </div>
+        <h1 className="text-4xl font-bold text-center">Présentation</h1>
 
-            {/* QUI SUIS-JE */}
-            <div className="mt-6 text-center text-base md:text-lg font-semibold">
-                Qui suis-je ?
-            </div>
+        <div className="space-y-4">
+          <h2 className="text-xl font-semibold">Qui suis-je ?</h2>
+          <p>
+            Je m’appelle Adam Badaoui, étudiant en BTS SIO (Services Informatiques aux Organisations).
+            Passionné par l’informatique, les réseaux et la sécurité des systèmes, je construis mon
+            parcours avec un objectif clair : me spécialiser en cybersécurité et devenir un
+            professionnel fiable, rigoureux et utile.
+          </p>
+          <p>
+            Mon profil est un peu particulier : avant l’informatique, j’ai suivi une formation
+            commerciale (STMG puis BTS NDRC). Cette double compétence technique et relationnelle me
+            permet aujourd’hui de comprendre aussi bien les enjeux techniques que les besoins humains
+            et métiers. Je sais analyser une problématique, la traduire en solution concrète et
+            l’expliquer simplement.
+          </p>
+        </div>
 
-            <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li>
-                    Je m’appelle Adam Badaoui, étudiant en BTS SIO (Services Informatiques aux
-                    Organisations). Passionné par l’informatique, les réseaux et la sécurité des
-                    systèmes, je construis mon parcours avec un objectif clair : me spécialiser
-                    en cybersécurité et devenir un professionnel fiable, rigoureux et utile.
-                </li>
+        <div className="space-y-6">
+          <h2 className="text-xl font-semibold">Mon parcours</h2>
 
-                <li className="mt-3">
-                    Mon profil est un peu particulier : avant l’informatique, j’ai suivi une
-                    formation commerciale (STMG puis BTS NDRC). Cette double compétence
-                    technique et relationnelle me permet aujourd’hui de comprendre aussi bien
-                    les enjeux techniques que les besoins humains et métiers. Je sais analyser
-                    une problématique, la traduire en solution concrète et l’expliquer simplement.
-                </li>
+          <div>
+            <h3 className="font-medium">Formation</h3>
+            <ul className="list-disc list-inside">
+              <li>BTS SIO – Services Informatiques aux Organisations (2024 – 2026)</li>
+              <li>BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)</li>
+              <li>Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)</li>
             </ul>
+          </div>
 
-            {/* MON PARCOURS */}
-            <div className="mt-8 text-center text-base md:text-lg font-semibold">
-                Mon parcours
-            </div>
-
-            {/* FORMATION */}
-            <div className="mt-4 text-center font-medium">Formation</div>
-
-            <ul className="mt-3 text-sm md:text-base w-5/6 md:w-3/4">
-                <li>
-                    <span className="font-medium">
-                        BTS SIO – Services Informatiques aux Organisations (2024 – 2026)
-                    </span>
-                    <br />
-                    Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
-                </li>
-
-                <li className="mt-3">
-                    <span className="font-medium">
-                        BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
-                    </span>
-                    <br />
-                    Acquisition de solides compétences en communication, analyse des besoins
-                    clients et gestion de projets.
-                </li>
-
-                <li className="mt-3">
-                    <span className="font-medium">
-                        Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)
-                    </span>
-                </li>
+          <div>
+            <h3 className="font-medium">Expériences professionnelles</h3>
+            <p className="mt-2 font-medium">
+              Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
+            </p>
+            <p>
+              Lors de cette expérience, j’ai évolué dans un environnement professionnel exigeant,
+              orienté infrastructure et services IT.
+            </p>
+            <ul className="list-disc list-inside">
+              <li>Assistance aux utilisateurs (support, dépannage, accompagnement)</li>
+              <li>Déploiement et administration de services réseau : VPN, DNS, DHCP</li>
+              <li>Installation et gestion d’infrastructures réseau : pare-feu, routeurs, switchs</li>
+              <li>Déploiement et gestion d’un service de téléphonie IP</li>
             </ul>
-
-            {/* EXPÉRIENCES */}
-            <div className="mt-8 text-center font-medium">
-                Expériences professionnelles
-            </div>
-
-            <ul className="mt-4 text-sm md:text-base w-5/6 md:w-3/4">
-                <li>
-                    <span className="font-medium">
-                        Technicien Informatique – XEFI Cissé (Janvier – Février 2026)
-                    </span>
-                    <br />
-                    Lors de cette expérience, j’ai évolué dans un environnement professionnel
-                    exigeant, orienté infrastructure et services IT.
-                    <br /><br />
-                    Missions principales :
-                    <br />- Assistance aux utilisateurs (support, dépannage, accompagnement)
-                    <br />- Déploiement et administration de services réseau : VPN, DNS, DHCP
-                    <br />- Installation et gestion d’infrastructures réseau : pare-feu, routeurs, switchs
-                    <br />- Déploiement et gestion d’un service de téléphonie IP
-                    <br /><br />
-                    Cette expérience m’a permis de gagner en autonomie, en rigueur et en
-                    compréhension des environnements professionnels réels.
-                </li>
-
-                <li className="mt-6">
-                    <span className="font-medium">
-                        Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
-                    </span>
-                    <br />
-                    Stage orienté systèmes, réseaux et administration.
-                    <br /><br />
-                    Missions réalisées :
-                    <br />- Installation et administration de serveurs Linux et Windows
-                    <br />- Gestion des utilisateurs, droits et stratégies de groupe (Active Directory, GPO)
-                    <br />- Mise en place de services réseau : DHCP, DNS, SFTP, Apache, SSH, VPN
-                    <br />- Configuration et maintenance d’équipements réseau (switchs, routeurs, firewalls)
-                    <br />- Participation à la maintenance du parc informatique
-                    <br />- Mise à jour de la documentation technique
-                </li>
-            </ul>
-
-            {/* COMPÉTENCES */}
-            <div className="mt-8 text-center font-medium">
-                Compétences techniques
-            </div>
-
-            <ul className="mt-4 text-sm md:text-base w-5/6 md:w-3/4">
-                <li>
-                    <span className="font-medium">Systèmes & Réseaux</span>
-                    <br />Windows Server & Linux
-                    <br />Active Directory, GPO
-                    <br />DHCP, DNS, VPN, SSH
-                    <br />Serveur web (Apache)
-                    <br />Téléphonie IP
-                </li>
-
-                <li className="mt-4">
-                    <span className="font-medium">Réseau & Sécurité</span>
-                    <br />Configuration de pare-feu, routeurs, switchs
-                    <br />Bases en sécurisation des infrastructures
-                    <br />Sensibilisation aux bonnes pratiques de cybersécurité
-                </li>
-
-                <li className="mt-4">
-                    <span className="font-medium">Support & Méthodologie</span>
-                    <br />Assistance utilisateurs
-                    <br />Diagnostic et résolution d’incidents
-                    <br />Rédaction de documentation technique
-                    <br />Travail en équipe et en autonomie
-                </li>
-            </ul>
-
-            {/* LANGUES & QUALITÉS */}
-            <div className="mt-8 text-center font-medium">Langues</div>
-            <div className="mt-2 text-sm md:text-base">
-                Français : courant<br />
-                Arabe : courant<br />
-                Anglais : niveau B2
-            </div>
-
-            <div className="mt-6 text-center font-medium">Qualités</div>
-            <div className="mt-2 text-sm md:text-base">
-                Rigueur et sens des responsabilités<br />
-                Bonne capacité d’analyse<br />
-                Pédagogie et vulgarisation technique<br />
-                Adaptabilité et curiosité<br />
-                Bon relationnel client
-            </div>
-
-            {/* OBJECTIF */}
-            <div className="mt-8 text-center font-medium">
-                Objectif professionnel
-            </div>
-
-            <p className="mt-3 text-sm md:text-base w-5/6 md:w-3/4">
-                Mon objectif est clair : devenir expert en cybersécurité. Je souhaite poursuivre
-                mon parcours en alternance, renforcer mes compétences techniques, approfondir
-                la sécurité des systèmes et des réseaux, et contribuer activement à la protection
-                des infrastructures informatiques.
-                <br /><br />
-                Je conçois l’informatique comme un domaine où la confiance, l’éthique et la
-                responsabilité sont essentielles. Chaque projet est pour moi une occasion
-                de progresser, d’apprendre et de viser l’excellence.
+            <p className="mt-2">
+              Cette expérience m’a permis de gagner en autonomie, en rigueur et en compréhension des
+              environnements professionnels réels.
             </p>
 
-            {/* CENTRES D’INTÉRÊT */}
-            <div className="mt-8 text-center font-medium">
-                Centres d’intérêt
-            </div>
+            <p className="mt-4 font-medium">
+              Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
+            </p>
+            <p>Stage orienté systèmes, réseaux et administration.</p>
+            <ul className="list-disc list-inside">
+              <li>Installation et administration de serveurs Linux et Windows</li>
+              <li>Gestion des utilisateurs, droits et stratégies de groupe (Active Directory, GPO)</li>
+              <li>Mise en place de services réseau : DHCP, DNS, SFTP, Apache, SSH, VPN</li>
+              <li>Configuration et maintenance d’équipements réseau</li>
+              <li>Participation à la maintenance du parc informatique</li>
+              <li>Mise à jour de la documentation technique</li>
+            </ul>
+          </div>
+        </div>
 
-            <div className="mt-2 text-sm md:text-base">
-                Sport (discipline, dépassement de soi)<br />
-                Voyages (ouverture d’esprit)<br />
-                Théâtre associatif (expression, travail d’équipe)
-            </div>
+        <div>
+          <h2 className="text-xl font-semibold">Compétences techniques</h2>
+          <p className="mt-2 font-medium">Systèmes & Réseaux</p>
+          <p>Windows Server & Linux, Active Directory, GPO, DHCP, DNS, VPN, SSH, Apache, Téléphonie IP</p>
 
-            {/* CONTACT */}
-            <div className="mt-8 text-center text-sm md:text-base">
-                📧 Contact : badaoui.adam.pro@gmail.com <br />
-                🌐 Portfolio : ab-portfolio.fr
-            </div>
-        </>
-    );
+          <p className="mt-2 font-medium">Réseau & Sécurité</p>
+          <p>Configuration de pare-feu, routeurs, switchs, bases en sécurisation des infrastructures</p>
+
+          <p className="mt-2 font-medium">Support & Méthodologie</p>
+          <p>Assistance utilisateurs, diagnostic d’incidents, documentation, travail en équipe</p>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold">Objectif professionnel</h2>
+          <p>
+            Mon objectif est clair : devenir expert en cybersécurité. Je souhaite poursuivre mon
+            parcours en alternance, renforcer mes compétences techniques, approfondir la sécurité
+            des systèmes et des réseaux, et contribuer activement à la protection des infrastructures
+            informatiques.
+          </p>
+          <p className="mt-2">
+            Je conçois l’informatique comme un domaine où la confiance, l’éthique et la responsabilité
+            sont essentielles. Chaque projet est pour moi une occasion de progresser, d’apprendre et
+            de viser l’excellence.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold">Centres d’intérêt</h2>
+          <p>Sport, Voyages, Théâtre associatif</p>
+        </div>
+
+      </div>
+    </section>
+  );
 }
 
 /* =========================
