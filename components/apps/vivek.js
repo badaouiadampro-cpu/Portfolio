@@ -178,27 +178,34 @@ function About() {
     <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide">
-        Présentation
-      </div>
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-pink-400">
+          Présentation
+          </div>
+
 
       {/* CARD : QUI SUIS-JE */}
       <div className="mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center text-base md:text-lg font-semibold mb-4">
+        <div className="text-center text-base md:text-lg font-semibold mb-4 text-pink-400">
           Qui suis-je ?
         </div>
 
         <ul className="leading-tight tracking-tight text-sm md:text-base space-y-3">
           <li>
-            Je m’appelle Adam Badaoui, étudiant en BTS SIO (Services Informatiques aux
-            Organisations). Passionné par l’informatique, les réseaux et la sécurité des
-            systèmes, je construis mon parcours avec un objectif clair : me spécialiser
-            en cybersécurité et devenir un professionnel fiable, rigoureux et utile.
+            Étudiant en BTS SIO, j’ai débuté par une première expérience en support
+            informatique où j’ai assuré l’assistance aux utilisateurs et la résolution
+            d’incidents. J’ai ensuite intégré XEFI, ce qui m’a permis d’acquérir une
+            approche plus professionnelle et technique notamment en support et
+            déploiement d’infrastructures réseau (pare-feu, routeurs,...). Issu d’une
+            formation commerciale, je possède un bon sens de la communication,
+            une compréhension des besoins clients et une capacité à vulgariser des
+            sujets techniques. Fort de ces bases en réseaux et commerce, je
+            souhaite poursuivre mon parcours en alternance afin de me spécialiser
+            en cybersécurité.
           </li>
 
           <li>
-            Mon profil est un peu particulier : avant l’informatique, j’ai suivi une
-            formation commerciale (STMG puis BTS NDRC). Cette double compétence
+            Mon parcours profesionel est le suivant : Avant l’informatique, j’ai suivi une
+            formation commerciale en premiere annee de BTS NDRC avant d'integrer mon BTS SIO. Cette double compétence
             technique et relationnelle me permet aujourd’hui de comprendre aussi bien
             les enjeux techniques que les besoins humains et métiers. Je sais analyser
             une problématique, la traduire en solution concrète et l’expliquer simplement.
@@ -208,8 +215,8 @@ function About() {
 
       {/* CARD : PARCOURS */}
       <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center text-base md:text-lg font-semibold mb-4">
-          Mon parcours
+        <div className="text-center text-base md:text-lg font-semibold mb-4 text-pink-400">
+          Formation
         </div>
 
         <div className="text-center font-medium mb-2 text-pink-400">
