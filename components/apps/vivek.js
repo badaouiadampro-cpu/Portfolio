@@ -288,7 +288,7 @@ function Skills() {
             </div>
 
             <p className="w-10/12 text-sm md:text-base text-center">
-                Le tableau de compétences sera bientôt disponible.  
+                Le tableau de compétences ainsi que les fiches de procédures des projets sont des supports nécessaires en vue de passer une de mes épreuves de BTS SIO .  
                 Une fois finalisé, il sera accessible ici sous forme de fichier PDF.
             </p>
 
@@ -315,7 +315,23 @@ function Skills() {
    SECTION : PROJETS
    ========================= */
 
-function Projects() {
+function Projects() 
+
+{
+     return (
+        <>
+            <div className="font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+                Compétences techniques
+                <div className="absolute pt-px bg-white mt-px top-full w-full">
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+                </div>
+            </div>
+
+            <p className="w-10/12 text-sm md:text-base text-center">
+                Le tableau de compétences ainsi que les fiches de procédures des projets sont des supports nécessaires en vue de passer une de mes épreuves de BTS SIO .  
+                Une fois finalisé, il sera accessible ici sous forme de fichier PDF.
+            </p>
     const project_list = [
         {
             name: "GSB - WebLab",
