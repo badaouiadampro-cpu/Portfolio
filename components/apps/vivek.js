@@ -164,10 +164,85 @@ export const displayAboutVivek = () => {
     return <AboutVivek />;
 };
 
+
 /* =========================
    SECTION : À PROPOS
    ========================= */
 
+function About() {
+    return (
+        <>
+            {/* TITRE */}
+            <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
+                <div>
+                    Je m&apos;appelle <span className="font-bold">Adam Badaoui</span>,
+                </div>
+                <div className="font-normal ml-1">
+                    je suis{" "}
+                    <span className="text-pink-600 font-bold">
+                        étudiant en BTS SIO option SISR
+                    </span>
+                </div>
+            </div>
+
+            {/* SÉPARATEUR */}
+            <div className="mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
+                <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
+                <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
+            </div>
+
+            {/* CONTENU */}
+            <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
+                <li className="list-pc">
+                    Je suis étudiant en informatique avec une spécialisation orientée
+                    <span className="font-medium"> systèmes, réseaux et infrastructures</span>.
+                    Mon objectif est clair : évoluer progressivement vers les métiers de la
+                    cybersécurité et de l’administration sécurisée des systèmes.
+                </li>
+
+                <li className="mt-3 list-building">
+                    Mon parcours est marqué par une double compétence. Issu d’une formation
+                    commerciale, j’ai développé un bon sens de la communication, une réelle
+                    compréhension des besoins utilisateurs et une capacité à vulgariser
+                    des sujets techniques complexes.
+                </li>
+
+                <li className="mt-3 list-time">
+                    Grâce à mes expériences en support informatique et en entreprise,
+                    notamment chez <span className="font-medium">XEFI</span>, j’ai acquis une
+                    approche professionnelle de l’IT : diagnostic d’incidents, assistance
+                    utilisateurs, déploiement de services réseaux et administration
+                    d’infrastructures.
+                </li>
+
+                <li className="mt-3 list-building">
+                    J’ai travaillé sur des environnements <span className="font-medium">Linux et Windows</span>,
+                    mis en place des services tels que DHCP, DNS, VPN, Active Directory,
+                    et configuré des équipements réseau comme des switchs, routeurs et
+                    pare-feu. J’accorde une grande importance à la documentation, aux
+                    procédures et à la fiabilité des systèmes.
+                </li>
+
+                <li className="mt-3 list-time">
+                    J’apprends principalement par la pratique : laboratoires réseaux,
+                    machines virtuelles, tests de configuration et projets concrets.
+                    Face à un problème, je prends le temps d’analyser, de tester et de
+                    comprendre avant d’implémenter une solution propre et durable.
+                </li>
+
+                <li className="mt-3 list-star">
+                    En dehors de l’informatique, je m’intéresse au sport, au développement
+                    personnel et aux projets d’investissement à long terme. Je cherche à
+                    progresser continuellement, aussi bien sur le plan technique que
+                    personnel, avec une vision sérieuse et disciplinée.
+                </li>
+            </ul>
+        </>
+    );
+}
+/* =========================
+   SECTION : À PROPOS
+   ========================= 
 function About() {
     return (
         <>
@@ -212,6 +287,7 @@ function About() {
         </>
     );
 }
+*/
 
 /* =========================
    SECTION : SCOLARITÉ
