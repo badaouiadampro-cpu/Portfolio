@@ -173,17 +173,26 @@ export const displayAboutVivek = () => {
    SECTION : PRÉSENTATION
 ========================= */
 
+/* =========================
+   SECTION : PRÉSENTATION
+========================= */
+
 function About() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
+    <div className="relative min-h-screen bg-zinc-950 text-zinc-200 px-4 flex flex-col items-center">
+
+      {/* BACKGROUND SUBTIL */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(236,72,153,0.05),transparent_40%)] pointer-events-none" />
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide">
+      <div className="relative mt-8 text-lg md:text-2xl font-bold tracking-wide">
         Présentation
       </div>
 
       {/* CARD : QUI SUIS-JE */}
-      <div className="mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+      <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
         <div className="text-center text-base md:text-lg font-semibold mb-4">
           Qui suis-je ?
         </div>
@@ -195,24 +204,23 @@ function About() {
             systèmes, je construis mon parcours avec un objectif clair : me spécialiser
             en cybersécurité et devenir un professionnel fiable, rigoureux et utile.
           </li>
-
           <li>
             Mon profil est un peu particulier : avant l’informatique, j’ai suivi une
             formation commerciale (STMG puis BTS NDRC). Cette double compétence
             technique et relationnelle me permet aujourd’hui de comprendre aussi bien
-            les enjeux techniques que les besoins humains et métiers. Je sais analyser
-            une problématique, la traduire en solution concrète et l’expliquer simplement.
+            les enjeux techniques que les besoins humains et métiers.
           </li>
         </ul>
       </div>
 
-      {/* CARD : PARCOURS */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center text-base md:text-lg font-semibold mb-4">
-          Mon parcours
-        </div>
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
 
-        <div className="text-center font-medium mb-2 text-pink-400">
+      {/* CARD : FORMATION */}
+      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
           Formation
         </div>
 
@@ -224,16 +232,13 @@ function About() {
             <br />
             Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
           </li>
-
           <li>
             <span className="font-medium">
               BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
             </span>
             <br />
-            Acquisition de solides compétences en communication, analyse des besoins
-            clients et gestion de projets.
+            Acquisition de solides compétences en communication et gestion de projets.
           </li>
-
           <li>
             <span className="font-medium">
               Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)
@@ -242,9 +247,14 @@ function About() {
         </ul>
       </div>
 
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
       {/* CARD : EXPÉRIENCES */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-4 text-pink-400">
+      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
           Expériences professionnelles
         </div>
 
@@ -254,11 +264,10 @@ function About() {
               Technicien Informatique – XEFI Cissé (Janvier – Février 2026)
             </span>
             <br /><br />
-            Missions principales :
-            <br />- Assistance aux utilisateurs
-            <br />- Déploiement et administration de services réseau : VPN, DNS, DHCP
-            <br />- Installation et gestion d’infrastructures réseau
-            <br />- Déploiement et gestion d’un service de téléphonie IP
+            - Assistance aux utilisateurs<br />
+            - VPN, DNS, DHCP<br />
+            - Pare-feu, routeurs, switchs<br />
+            - Téléphonie IP
           </li>
 
           <li>
@@ -266,65 +275,66 @@ function About() {
               Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
             </span>
             <br /><br />
-            Missions réalisées :
-            <br />- Administration Linux & Windows
-            <br />- Active Directory, GPO
-            <br />- Services réseau : DHCP, DNS, SFTP, Apache, VPN
-            <br />- Maintenance du parc informatique
+            - Linux & Windows<br />
+            - Active Directory, GPO<br />
+            - DHCP, DNS, Apache, VPN<br />
+            - Maintenance du parc
           </li>
         </ul>
       </div>
 
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
       {/* CARD : COMPÉTENCES */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-4 text-pink-400">
+      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
           Compétences techniques
         </div>
 
         <ul className="text-sm md:text-base space-y-4">
           <li>
             <span className="font-medium">Systèmes & Réseaux</span><br />
-            Windows Server, Linux, AD, GPO, DHCP, DNS, VPN, Apache
+            Windows Server, Linux, AD, GPO, DHCP, DNS, VPN
           </li>
-
           <li>
             <span className="font-medium">Réseau & Sécurité</span><br />
-            Pare-feu, routeurs, switchs, bases de sécurisation
+            Pare-feu, routeurs, switchs, sécurisation
           </li>
-
           <li>
-            <span className="font-medium">Support & Méthodologie</span><br />
-            Assistance utilisateurs, diagnostic, documentation
+            <span className="font-medium">Support</span><br />
+            Assistance utilisateurs, documentation
           </li>
         </ul>
       </div>
 
-      {/* CARD : LANGUES & OBJECTIF */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-2 text-pink-400">Langues</div>
-        <div className="text-sm md:text-base text-center">
-          Français : courant · Arabe : courant · Anglais : B2
-        </div>
+      {/* OBJECTIF */}
+      <div className="relative mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
 
-        <div className="mt-6 text-center font-medium text-pink-400">
+        <div className="text-center text-base md:text-lg font-semibold mb-4">
           Objectif professionnel
         </div>
 
-        <p className="mt-3 text-sm md:text-base text-center">
-          Devenir expert en cybersécurité et contribuer activement à la protection
-          des infrastructures informatiques avec rigueur, éthique et responsabilité.
+        <p className="text-sm md:text-base text-center">
+          Devenir expert en cybersécurité et contribuer à la protection des
+          infrastructures informatiques avec rigueur, éthique et responsabilité.
         </p>
       </div>
 
       {/* CONTACT */}
-      <div className="mt-8 mb-10 text-center text-sm md:text-base text-zinc-400">
-        📧 badaoui.adam.pro@gmail.com <br />
+      <div className="mt-10 mb-12 text-center text-sm md:text-base text-zinc-400">
+        📧 badaoui.adam.pro@gmail.com<br />
         🌐 ab-portfolio.fr
       </div>
 
     </div>
   );
 }
+
+export default About;
 
 
 /* =========================
