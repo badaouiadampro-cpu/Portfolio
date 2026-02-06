@@ -289,7 +289,7 @@ function Skills() {
 
             <p className="w-10/12 text-sm md:text-base text-center">
                 Le tableau de compétences ainsi que les fiches de procédures des projets sont des supports nécessaires en vue de passer une de mes épreuves de BTS SIO .  
-                Une fois finalisé, il sera accessible ici sous forme de fichier PDF.
+                Une fois finalisés, ils seront accessibles ici sous forme de fichiers PDF.
             </p>
 
             <div className="mt-6 flex justify-center w-full">
