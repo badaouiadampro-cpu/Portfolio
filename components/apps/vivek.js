@@ -441,62 +441,81 @@ function About() {
 */
 /* =========================
    SECTION : SCOLARITÉ
-   ========================= */
+========================= */
 
 function Education() {
-    return (
-        <>
-            <div className="font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Scolarité
-                <div className="absolute pt-px bg-white mt-px top-full w-full">
-                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
-                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
-                </div>
-            </div>
+  return (
+    <div className="w-full flex flex-col items-center">
 
-            <ul className="w-10/12 mt-4 ml-4 px-0 md:px-1">
-                <li className="list-disc">
-                    <div className="text-lg md:text-xl text-left font-bold leading-tight">
-                        BTS SIO – option SISR
-                    </div>
-                    <div className="text-sm text-gray-400 mt-0.5">
-                        2024 - 2026 – Lycée Aliénor d&apos;Aquitaine, Poitiers
-                    </div>
-                    <div className="text-sm md:text-base">
-                        Spécialisation en solutions d&apos;infrastructure, systèmes et réseaux : serveurs, services
-                        réseau, sécurité, virtualisation.
-                    </div>
-                </li>
+      {/* TITRE */}
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-zinc-200">
+        Scolarité
+      </div>
 
-                <li className="list-disc mt-5">
-                    <div className="text-lg md:text-xl text-left font-bold leading-tight">
-                        BTS NDRC
-                    </div>
-                    <div className="text-sm text-gray-400 mt-0.5">
-                        2023 - 2024 – Lycée Bois d&apos;Amour, Poitiers
-                    </div>
-                    <div className="text-sm md:text-base">
-                        Formation en négociation, relation client et commerce, apportant une vision terrain et
-                        une aisance dans le contact humain.
-                    </div>
-                </li>
+      {/* CARD : BTS SIO */}
+      <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
 
-                <li className="list-disc mt-5">
-                    <div className="text-lg md:text-xl text-left font-bold leading-tight">
-                        Baccalauréat STMG
-                    </div>
-                    <div className="text-sm text-gray-400 mt-0.5">
-                        2022 - 2023 – Lycée Saint-Jacques de Compostelle, Poitiers
-                    </div>
-                    <div className="text-sm md:text-base">
-                        Sciences et technologies du management et de la gestion : gestion, droit, économie,
-                        organisation des entreprises.
-                    </div>
-                </li>
-            </ul>
-        </>
-    );
+        <div className="text-lg md:text-xl font-bold leading-tight">
+          BTS SIO – option SISR
+        </div>
+
+        <div className="text-sm text-zinc-400 mt-1">
+          2024 – 2026 · Lycée Aliénor d&apos;Aquitaine, Poitiers
+        </div>
+
+        <div className="mt-2 text-sm md:text-base text-zinc-200">
+          Spécialisation en solutions d&apos;infrastructure, systèmes et réseaux :
+          serveurs, services réseau, sécurité, virtualisation.
+        </div>
+      </div>
+
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
+      {/* CARD : BTS NDRC */}
+      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+        <div className="text-lg md:text-xl font-bold leading-tight">
+          BTS NDRC
+        </div>
+
+        <div className="text-sm text-zinc-400 mt-1">
+          2023 – 2024 · Lycée Bois d&apos;Amour, Poitiers
+        </div>
+
+        <div className="mt-2 text-sm md:text-base text-zinc-200">
+          Formation en négociation, relation client et commerce, apportant une
+          vision terrain et une aisance dans le contact humain.
+        </div>
+      </div>
+
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
+      {/* CARD : BAC STMG */}
+      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+        <div className="text-lg md:text-xl font-bold leading-tight">
+          Baccalauréat STMG
+        </div>
+
+        <div className="text-sm text-zinc-400 mt-1">
+          2022 – 2023 · Lycée Saint-Jacques de Compostelle, Poitiers
+        </div>
+
+        <div className="mt-2 text-sm md:text-base text-zinc-200">
+          Sciences et technologies du management et de la gestion : gestion,
+          droit, économie, organisation des entreprises.
+        </div>
+      </div>
+
+    </div>
+  );
 }
+
 
 /* =========================
    SECTION : COMPÉTENCES
