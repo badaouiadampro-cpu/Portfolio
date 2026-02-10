@@ -178,7 +178,7 @@ function About() {
     <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-purple-A200">
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-purple-400">
           Présentation
           </div>
 
