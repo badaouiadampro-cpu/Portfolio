@@ -555,10 +555,145 @@ function Skills() {
     );
 }
 
+/* =========================
+   SECTION : PROJETS
+========================= */
+
+function Projects() {
+  const project_list = [
+    {
+      name: "GSB - WebLab",
+      date: "2025",
+      pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Firewall - Sophos XGS",
+      date: "2026",
+      pdf: "./files/THOMYRIS - SOPHOS - XGS - Procédure Initialisation FIREWALL V1.8.1.pdf",
+      description: [
+        "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau pour une collectivité territoriale.",
+        "Configuration, tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
+      ],
+    },
+    {
+      name: "Switch - Aruba",
+      date: "2026",
+      pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
+      ],
+    },
+    {
+      name: "Accès distant - VPN Sophos",
+      date: "2026",
+      pdf: "./files/THOMYRIS_SOPHOS_Procédure_vpn_connect_ssl.pdf",
+      description: [
+        "Installation et configuration du client VPN Sophos Connect dans un environnement professionnel afin de permettre l’accès distant sécurisé à l’infrastructure réseau.",
+        "Établissement du tunnel sécurisé et validation de l’accès aux ressources réseau et applications autorisées.",
+      ],
+    },
+    {
+      name: "Sécurisation des accès - Authentification forte Sophos (OTP)",
+      date: "2026",
+      pdf: "./files/THOMYRIS - SOPHOS - Initialisation authentification à double facteur.pdf",
+      description: [
+        "Mise en place de l’authentification forte (One-Time Password) sur un firewall Sophos afin de renforcer la sécurité des accès utilisateurs.",
+        "Configuration de l’authentification à double facteur via le UserPortal",
+      ],
+    },
+    {
+      name: "WiFi - Aruba Instant On",
+      date: "2026",
+      pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Sécurité des postes - Sophos Endpoint (Cryptoprotect)",
+      date: "2026",
+      pdf: "./files/THOMYRIS_SOPHOS_Cryptoprotect.pdf",
+      description: [
+        "Déploiement et administration de Sophos Endpoint via Sophos Central.",
+        "Gestion des agents, protection antialtération et compatibilités systèmes.",
+      ],
+    },
+    {
+      name: "Messagerie - Configuration IMA",
+      date: "2026",
+      pdf: "./files/IMAP_Configuration_Mail.pdf",
+      description: [
+        "Configuration de boîtes mail via Outlook (IMAP/SMTP).",
+        "Gestion de la sécurité, authentification et synchronisation.",
+      ],
+    },
+  ];
+
+  return (
+    <div className="w-full flex flex-col items-center">
+
+      {/* TITRE */}
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-zinc-200">
+        Projets & Réalisations
+      </div>
+
+      {project_list.map((project, index) => (
+        <div key={index} className="w-full flex flex-col items-center">
+
+          {/* CARD PROJET */}
+          <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+            <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
+              <div className="text-lg md:text-xl font-bold leading-tight">
+                {project.name}
+              </div>
+              <div className="text-sm text-zinc-400">
+                {project.date}
+              </div>
+            </div>
+
+            <ul className="mt-3 text-sm md:text-base space-y-2">
+              {project.description.map((line, i) => (
+                <li key={i}>- {line}</li>
+              ))}
+            </ul>
+
+            {project.pdf && (
+              <a
+                href={project.pdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-sm text-pink-400 hover:text-pink-300 transition"
+              >
+                Voir la documentation PDF →
+              </a>
+            )}
+          </div>
+
+          {/* SÉPARATEUR */}
+          {index !== project_list.length - 1 && (
+            <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+          )}
+
+        </div>
+      ))}
+
+    </div>
+  );
+}
+
+
 
 /* =========================
    SECTION : PROJETS
-   ========================= */
+   ========================= 
 
 function Projects() {
     const project_list = [
@@ -701,7 +836,7 @@ function Projects() {
             ))}
         </>
     );
-}
+}*/
 
 /* =========================
    SECTION : CV
