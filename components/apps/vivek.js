@@ -554,49 +554,46 @@ function Skills() {
         </>
     );
 }*/
-function Education() {
+function Projects() {
     return (
         <section className="w-full flex flex-col items-center">
-            <h2 className="text-2xl font-semibold mb-6">Scolarité</h2>
+            <h2 className="text-2xl font-semibold mb-6">Projets techniques</h2>
 
-            <div className="w-10/12 space-y-6">
-                {[
-                    {
-                        title: "BTS SIO – option SISR",
-                        date: "2024 - 2026",
-                        place: "Lycée Aliénor d'Aquitaine, Poitiers",
-                        desc: "Spécialisation en infrastructures, systèmes et réseaux : serveurs, services réseau, sécurité, virtualisation.",
-                    },
-                    {
-                        title: "BTS NDRC",
-                        date: "2023 - 2024",
-                        place: "Lycée Bois d'Amour, Poitiers",
-                        desc: "Formation en négociation, relation client et commerce, apportant une vision terrain et une aisance relationnelle.",
-                    },
-                    {
-                        title: "Baccalauréat STMG",
-                        date: "2022 - 2023",
-                        place: "Lycée Saint-Jacques de Compostelle, Poitiers",
-                        desc: "Management, droit, économie, gestion et organisation des entreprises.",
-                    },
-                ].map((item, index) => (
+            <div className="w-11/12 grid grid-cols-1 md:grid-cols-2 gap-6">
+                {project_list.map((project, index) => (
                     <div
                         key={index}
-                        className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 hover:border-ub-orange transition"
+                        className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 flex flex-col justify-between hover:border-ub-orange transition"
                     >
-                        <h3 className="text-lg font-bold">{item.title}</h3>
-                        <p className="text-sm text-gray-400">
-                            {item.date} – {item.place}
-                        </p>
-                        <p className="text-sm mt-2 text-gray-200">
-                            {item.desc}
-                        </p>
+                        <div>
+                            <div className="flex justify-between items-center mb-2">
+                                <h3 className="font-bold text-lg">{project.name}</h3>
+                                <span className="text-sm text-gray-400">{project.date}</span>
+                            </div>
+
+                            <ul className="text-sm text-gray-200 list-disc ml-4 space-y-1">
+                                {project.description.map((line, i) => (
+                                    <li key={i}>{line}</li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <a
+                            href={project.pdf}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="mt-4 inline-block text-center text-sm px-4 py-2 bg-ub-orange rounded text-white hover:bg-opacity-80 transition"
+                        >
+                            Voir la procédure (PDF)
+                        </a>
                     </div>
                 ))}
             </div>
         </section>
     );
 }
+
+
 
 /* =========================
    SECTION : PROJETS V2
