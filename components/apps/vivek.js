@@ -557,25 +557,40 @@ function Skills() {
 function Skills() {
     return (
         <section className="w-full flex flex-col items-center">
-            <h2 className="text-2xl font-semibold mb-4">Compétences techniques</h2>
+            <h2 className="text-2xl font-semibold mb-6">Compétences techniques</h2>
 
-            <p className="w-10/12 text-sm md:text-base text-center text-gray-300">
-                Le tableau de compétences et les fiches de procédures sont des supports nécessaires
-                pour les épreuves du BTS SIO. Ils seront accessibles ici sous forme de fichiers PDF.
-            </p>
+            <div className="w-11/12 md:w-8/12">
+                <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 hover:border-ub-orange transition">
+                    
+                    <div className="flex justify-between items-center mb-2">
+                        <h3 className="font-bold text-lg">
+                            Tableau de compétences – BTS SIO
+                        </h3>
+                        <span className="text-sm text-gray-400">
+                            Épreuve E5
+                        </span>
+                    </div>
 
-            <div className="mt-6">
-                <a
-                    href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="px-6 py-3 bg-ub-orange text-white rounded-xl hover:bg-opacity-80 transition text-sm font-medium"
-                >
-                    Ouvrir le tableau de compétences
-                </a>
+                    <ul className="text-sm text-gray-200 list-disc ml-4 space-y-1">
+                        <li>Recensement et validation des compétences techniques acquises en formation et en entreprise.</li>
+                        <li>Support d’évaluation pour l’épreuve E5 du BTS SIO.</li>
+                        <li>Adossé aux projets techniques et aux procédures professionnelles présentées sur le portfolio.</li>
+                    </ul>
+
+                    <a
+                        href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="mt-4 inline-block text-center text-sm px-4 py-2 bg-ub-orange rounded text-white hover:bg-opacity-80 transition"
+                    >
+                        Voir le tableau de compétences (PDF)
+                    </a>
+
+                    <p className="mt-2 text-xs text-gray-400">
+                        Document en cours de finalisation
+                    </p>
+                </div>
             </div>
-
-            <p className="mt-3 text-xs text-gray-400">(Document non définitif)</p>
         </section>
     );
 }
