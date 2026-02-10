@@ -448,7 +448,7 @@ function Education() {
     <div className="w-full flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-zinc-200">
+      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-purple-400">
         Scolarité
       </div>
 
