@@ -518,8 +518,8 @@ function Education() {
 
 
 /* =========================
-   SECTION : COMPÉTENCES
-   ========================= */
+   SECTION : COMPÉTENCES V1
+   ========================= 
 
 function Skills() {
     return (
@@ -553,10 +553,53 @@ function Skills() {
             </p>
         </>
     );
+}*/
+function Education() {
+    return (
+        <section className="w-full flex flex-col items-center">
+            <h2 className="text-2xl font-semibold mb-6">Scolarité</h2>
+
+            <div className="w-10/12 space-y-6">
+                {[
+                    {
+                        title: "BTS SIO – option SISR",
+                        date: "2024 - 2026",
+                        place: "Lycée Aliénor d'Aquitaine, Poitiers",
+                        desc: "Spécialisation en infrastructures, systèmes et réseaux : serveurs, services réseau, sécurité, virtualisation.",
+                    },
+                    {
+                        title: "BTS NDRC",
+                        date: "2023 - 2024",
+                        place: "Lycée Bois d'Amour, Poitiers",
+                        desc: "Formation en négociation, relation client et commerce, apportant une vision terrain et une aisance relationnelle.",
+                    },
+                    {
+                        title: "Baccalauréat STMG",
+                        date: "2022 - 2023",
+                        place: "Lycée Saint-Jacques de Compostelle, Poitiers",
+                        desc: "Management, droit, économie, gestion et organisation des entreprises.",
+                    },
+                ].map((item, index) => (
+                    <div
+                        key={index}
+                        className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 hover:border-ub-orange transition"
+                    >
+                        <h3 className="text-lg font-bold">{item.title}</h3>
+                        <p className="text-sm text-gray-400">
+                            {item.date} – {item.place}
+                        </p>
+                        <p className="text-sm mt-2 text-gray-200">
+                            {item.desc}
+                        </p>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
 }
 
 /* =========================
-   SECTION : PROJETS
+   SECTION : PROJETS V2
 ========================= */
 
 function Projects() {
