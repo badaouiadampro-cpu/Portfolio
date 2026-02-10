@@ -428,12 +428,12 @@ function About() {
 
 function Education() {
   return (
-    <div className="w-full flex flex-col items-center">
+      <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-purple-200">
+      <h1 className="mt-10 text-2xl md:text-3xl font-bold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
         Scolarité
-      </div>
+      </h1>
 
       {/* CARD : BTS SIO */}
       <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
