@@ -178,63 +178,62 @@ function About() {
     <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-purple-400">
-          Présentation
-          </div>
+      <h1 className="mt-10 text-2xl md:text-3xl font-bold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
+        Présentation
+      </h1>
 
+      {/* QUI SUIS-JE */}
+      <div className="relative mt-8 w-full md:w-3/4">
+        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm"></div>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition hover:border-zinc-700">
+          <h2 className="text-center text-lg font-semibold mb-4 text-pink-400">
+            Qui suis-je ?
+          </h2>
 
-      {/* CARD : QUI SUIS-JE */}
-      <div className="mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center text-base md:text-lg font-semibold mb-4 text-pink-400">
-          Qui suis-je ?
+          <ul className="text-sm md:text-base space-y-3 leading-tight">
+            <li>
+              Étudiant en BTS SIO, j’ai débuté par une première expérience en support
+              informatique où j’ai assuré l’assistance aux utilisateurs et la résolution
+              d’incidents. J’ai ensuite intégré XEFI, ce qui m’a permis d’acquérir une
+              approche plus professionnelle et technique notamment en support et
+              déploiement d’infrastructures réseau (pare-feu, routeurs,...). Issu d’une
+              formation commerciale, je possède un bon sens de la communication,
+              une compréhension des besoins clients et une capacité à vulgariser des
+              sujets techniques. Fort de ces bases en réseaux et commerce, je
+              souhaite poursuivre mon parcours en alternance afin de me spécialiser
+              en cybersécurité.
+            </li>
+
+            <li>
+              Mon parcours profesionel est le suivant : Avant l’informatique, j’ai suivi une
+              formation commerciale en premiere annee de BTS NDRC avant d&apos;integrer mon BTS SIO.
+              Cette double compétence technique et relationnelle me permet aujourd’hui de comprendre aussi bien
+              les enjeux techniques que les besoins humains et métiers. Je sais analyser
+              une problématique, la traduire en solution concrète et l’expliquer simplement.
+            </li>
+          </ul>
         </div>
-
-        <ul className="leading-tight tracking-tight text-sm md:text-base space-y-3">
-          <li>
-            Étudiant en BTS SIO, j’ai débuté par une première expérience en support
-            informatique où j’ai assuré l’assistance aux utilisateurs et la résolution
-            d’incidents. J’ai ensuite intégré XEFI, ce qui m’a permis d’acquérir une
-            approche plus professionnelle et technique notamment en support et
-            déploiement d’infrastructures réseau (pare-feu, routeurs,...). Issu d’une
-            formation commerciale, je possède un bon sens de la communication,
-            une compréhension des besoins clients et une capacité à vulgariser des
-            sujets techniques. Fort de ces bases en réseaux et commerce, je
-            souhaite poursuivre mon parcours en alternance afin de me spécialiser
-            en cybersécurité.
-          </li>
-
-          <li>
-            Mon parcours profesionel est le suivant : Avant l’informatique, j’ai suivi une
-            formation commerciale en premiere annee de BTS NDRC avant d'integrer mon BTS SIO. Cette double compétence
-            technique et relationnelle me permet aujourd’hui de comprendre aussi bien
-            les enjeux techniques que les besoins humains et métiers. Je sais analyser
-            une problématique, la traduire en solution concrète et l’expliquer simplement.
-          </li>
-        </ul>
       </div>
 
-      {/* CARD : PARCOURS */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center text-base md:text-lg font-semibold mb-4 text-pink-400">
+      {/* FORMATION */}
+      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <h2 className="text-center text-lg font-semibold mb-4 text-pink-400">
           Formation
-        </div>
+        </h2>
 
         <ul className="text-sm md:text-base space-y-3">
           <li>
             <span className="font-medium">
               BTS SIO – Services Informatiques aux Organisations (2024 – 2026)
-            </span>
-            <br />
+            </span><br />
             Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
           </li>
 
           <li>
             <span className="font-medium">
               BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
-            </span>
-            <br />
-            Acquisition de solides compétences en communication, analyse des besoins
-            clients et gestion de projets.
+            </span><br />
+            Acquisition de solides compétences en communication et gestion de projets.
           </li>
 
           <li>
@@ -245,90 +244,74 @@ function About() {
         </ul>
       </div>
 
-      {/* CARD : EXPÉRIENCES */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-4 text-pink-400">
+      {/* EXPÉRIENCES */}
+      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <h2 className="text-center font-semibold mb-4 text-pink-400">
           Expériences professionnelles
-        </div>
+        </h2>
 
         <ul className="text-sm md:text-base space-y-6">
           <li>
             <span className="font-medium">
               Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
-            </span>
-            <br /><br />
-            Missions principales :
-            <br />- Assistance aux utilisateurs
-            <br />- Déploiement et administration de services réseau : VPN, DNS, DHCP
-            <br />- Installation et gestion d’infrastructures réseau
-            <br />- Déploiement et gestion d’un service de téléphonie IP
+            </span><br /><br />
+            - Assistance aux utilisateurs<br />
+            - Déploiement et administration de services réseau (VPN, DNS, DHCP)<br />
+            - Gestion d’infrastructures réseau<br />
+            - Téléphonie IP
           </li>
 
           <li>
             <span className="font-medium">
               Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
-            </span>
-            <br /><br />
-            Missions réalisées :
-            <br />- Maintenance et au renouvellement du matériel informatique.
-            <br />- Active Directory
-            <br />- Assistance aux utilisateurs
-            <br />- Documentations des procédures réalisées
+            </span><br /><br />
+            - Maintenance du parc informatique<br />
+            - Active Directory<br />
+            - Assistance utilisateurs<br />
+            - Documentation technique
           </li>
         </ul>
       </div>
 
-      {/* CARD : COMPÉTENCES */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-4 text-pink-400">
+      {/* COMPÉTENCES */}
+      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <h2 className="text-center font-semibold mb-4 text-pink-400">
           Compétences techniques
-        </div>
+        </h2>
 
         <ul className="text-sm md:text-base space-y-4">
-          <li>
-            <span className="font-medium">Systèmes & Réseaux</span><br />
-            Windows Server, Linux, AD, DHCP, DNS, VPN, Apache
-          </li>
-
-          <li>
-            <span className="font-medium">Réseau & Sécurité</span><br />
-            Pare-feu, routeurs, switchs
-          </li>
-
-          <li>
-            <span className="font-medium">Support & Méthodologie</span><br />
-            Assistance utilisateurs, diagnostic, documentation
-          </li>
+          <li><span className="font-medium">Systèmes & Réseaux</span><br />Windows Server, Linux, AD, DHCP, DNS, VPN, Apache</li>
+          <li><span className="font-medium">Réseau & Sécurité</span><br />Pare-feu, routeurs, switchs</li>
+          <li><span className="font-medium">Support & Méthodologie</span><br />Assistance, diagnostic, documentation</li>
         </ul>
       </div>
 
-      {/* CARD : LANGUES & OBJECTIF */}
-      <div className="mt-8 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <div className="text-center font-medium mb-2 text-pink-400">Langues</div>
-        <div className="text-sm md:text-base text-center">
-          Français : courant · Arabe : courant · Anglais : B2
-        </div>
+      {/* LANGUES & OBJECTIF */}
+      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
+        <h2 className="text-center font-semibold text-pink-400 mb-2">Langues</h2>
+        <p className="text-center text-sm md:text-base">
+          Français · Arabe · Anglais (B2)
+        </p>
 
-        <div className="mt-6 text-center font-medium text-pink-400">
+        <h2 className="mt-6 text-center font-semibold text-pink-400">
           Objectif professionnel
-        </div>
+        </h2>
 
         <p className="mt-3 text-sm md:text-base text-center">
-          Je souhaite développer mes compétences et acquérir une véritable expérience professionnelle grâce à une alternance dans le domaine informatique. 
-          La cybersécurité m’attire particulièrement : comprendre les menaces, protéger les systèmes et contribuer à la sécurité des infrastructures sont des aspects qui me motivent.
-          Je veux me spécialiser progressivement dans ce domaine, avec sérieux, éthique et sens des responsabilités.
+          Je souhaite développer mes compétences et acquérir une véritable expérience professionnelle grâce à une alternance.
+          La cybersécurité représente pour moi un domaine stratégique où rigueur, éthique et responsabilité sont essentielles.
         </p>
       </div>
 
       {/* CONTACT */}
-      <div className="mt-8 mb-10 text-center text-sm md:text-base text-zinc-400">
+      <div className="mt-10 mb-12 text-center text-sm text-zinc-400">
         📧 badaoui.adam.pro@gmail.com <br />
         🌐 ab-portfolio.fr
       </div>
-
     </div>
   );
 }
+
 
 
 /* =========================
