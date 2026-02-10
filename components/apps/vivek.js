@@ -554,45 +554,31 @@ function Skills() {
         </>
     );
 }*/
-function Projects() {
+function Skills() {
     return (
         <section className="w-full flex flex-col items-center">
-            <h2 className="text-2xl font-semibold mb-6">Projets techniques</h2>
+            <h2 className="text-2xl font-semibold mb-4">Compétences techniques</h2>
 
-            <div className="w-11/12 grid grid-cols-1 md:grid-cols-2 gap-6">
-                {project_list.map((project, index) => (
-                    <div
-                        key={index}
-                        className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 flex flex-col justify-between hover:border-ub-orange transition"
-                    >
-                        <div>
-                            <div className="flex justify-between items-center mb-2">
-                                <h3 className="font-bold text-lg">{project.name}</h3>
-                                <span className="text-sm text-gray-400">{project.date}</span>
-                            </div>
+            <p className="w-10/12 text-sm md:text-base text-center text-gray-300">
+                Le tableau de compétences et les fiches de procédures sont des supports nécessaires
+                pour les épreuves du BTS SIO. Ils seront accessibles ici sous forme de fichiers PDF.
+            </p>
 
-                            <ul className="text-sm text-gray-200 list-disc ml-4 space-y-1">
-                                {project.description.map((line, i) => (
-                                    <li key={i}>{line}</li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <a
-                            href={project.pdf}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="mt-4 inline-block text-center text-sm px-4 py-2 bg-ub-orange rounded text-white hover:bg-opacity-80 transition"
-                        >
-                            Voir la procédure (PDF)
-                        </a>
-                    </div>
-                ))}
+            <div className="mt-6">
+                <a
+                    href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-6 py-3 bg-ub-orange text-white rounded-xl hover:bg-opacity-80 transition text-sm font-medium"
+                >
+                    Ouvrir le tableau de compétences
+                </a>
             </div>
+
+            <p className="mt-3 text-xs text-gray-400">(Document non définitif)</p>
         </section>
     );
 }
-
 
 
 /* =========================
