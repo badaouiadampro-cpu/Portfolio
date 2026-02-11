@@ -967,20 +967,20 @@ function Resume() {
 
       {/* TEXTE INTRO */}
       <p className="mt-4 w-10/12 md:w-8/12 text-center text-sm md:text-base text-zinc-300">
-        Retrouvez ici mon CV complet, consultable directement en ligne ou téléchargeable au format PDF.
+        Consultez mon CV directement en ligne ou téléchargez-le au format PDF.
       </p>
 
       {/* CARTE + HALO */}
-      <div className="relative mt-10 w-11/12 md:w-8/12 h-[80vh] group">
+      <div className="relative mt-10 w-11/12 md:w-8/12 h-[90vh] group">
         {/* Halo dégradé */}
         <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
         {/* Conteneur */}
         <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
 
-          {/* IFRAME */}
+          {/* IFRAME AGRANDI */}
           <iframe
-            className="w-full h-full rounded-xl"
+            className="w-full h-full"
             src="./files/CV-Badaoui-Adam.pdf"
             title="CV Adam Badaoui"
           ></iframe>
@@ -998,6 +998,4 @@ function Resume() {
 
       <div className="mb-16"></div>
     </section>
-  );
-}
 
