@@ -431,11 +431,37 @@ function Education() {
         Scolarité
       </h1>
 
-      {/* Nouvelle CARD : BTS SIO */}
+      {/* CARD : Ynov Bordeaux */}
       <div className="relative mt-6 w-full md:w-3/4 group">
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition"></div>
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
+
+          <div className="text-lg md:text-xl font-bold leading-tight">
+            Bachelor Cybersécurité
+          </div>
+
+          <div className="text-sm text-zinc-400 mt-1">
+            2023 – 2024 · Ynov Campus, Bordeaux
+          </div>
+
+          <div className="mt-2 text-sm md:text-base text-zinc-200">
+            Approche pratique de la cybersécurité : analyse de vulnérabilités,
+            sécurité réseau, gestion des risques, protection des systèmes et
+            sensibilisation aux enjeux cyber modernes.
+          </div>
+        </div>
+      </div>
+
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
+      {/* CARD : BTS SIO */}
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
+
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
           <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
           <div className="text-lg md:text-xl font-bold leading-tight">
@@ -457,20 +483,24 @@ function Education() {
       <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
 
       {/* CARD : BTS NDRC */}
-      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <div className="text-lg md:text-xl font-bold leading-tight">
-          BTS NDRC
-        </div>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
-        <div className="text-sm text-zinc-400 mt-1">
-          2023 – 2024 · Lycée Bois d'Amour, Poitiers
-        </div>
+          <div className="text-lg md:text-xl font-bold leading-tight">
+            BTS NDRC
+          </div>
 
-        <div className="mt-2 text-sm md:text-base text-zinc-200">
-          Formation en négociation, relation client et commerce, apportant une
-          vision terrain et une aisance dans le contact humain.
+          <div className="text-sm text-zinc-400 mt-1">
+            2023 – 2024 · Lycée Bois d'Amour, Poitiers
+          </div>
+
+          <div className="mt-2 text-sm md:text-base text-zinc-200">
+            Formation en négociation, relation client et commerce, apportant une
+            vision terrain et une aisance dans le contact humain.
+          </div>
         </div>
       </div>
 
@@ -478,20 +508,24 @@ function Education() {
       <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
 
       {/* CARD : BAC STMG */}
-      <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <div className="text-lg md:text-xl font-bold leading-tight">
-          Baccalauréat STMG
-        </div>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
-        <div className="text-sm text-zinc-400 mt-1">
-          2022 – 2023 · Lycée Saint-Jacques de Compostelle, Poitiers
-        </div>
+          <div className="text-lg md:text-xl font-bold leading-tight">
+            Baccalauréat STMG
+          </div>
 
-        <div className="mt-2 text-sm md:text-base text-zinc-200">
-          Sciences et technologies du management et de la gestion : gestion,
-          droit, économie, organisation des entreprises.
+          <div className="text-sm text-zinc-400 mt-1">
+            2022 – 2023 · Lycée Saint-Jacques de Compostelle, Poitiers
+          </div>
+
+          <div className="mt-2 text-sm md:text-base text-zinc-200">
+            Sciences et technologies du management et de la gestion : gestion,
+            droit, économie, organisation des entreprises.
+          </div>
         </div>
       </div>
 
