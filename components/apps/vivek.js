@@ -971,14 +971,14 @@ function Resume() {
       </p>
 
       {/* CARTE + HALO */}
-      <div className="relative mt-10 w-11/12 md:w-8/12 h-[90vh] group">
+      <div className="relative mt-10 w-11/12 md:w-8/12 h-[95vh] group">
         {/* Halo dégradé */}
         <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
         {/* Conteneur */}
         <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
 
-          {/* IFRAME AGRANDI */}
+          {/* IFRAME EN GRAND FORMAT */}
           <iframe
             className="w-full h-full"
             src="./files/CV-Badaoui-Adam.pdf"
@@ -987,17 +987,30 @@ function Resume() {
         </div>
       </div>
 
-      {/* BOUTON DÉTACHÉ */}
-      <a
-        href="./files/CV-Badaoui-Adam.pdf"
-        download
-        className="mt-6 inline-block text-sm px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
-      >
-        Télécharger le CV
-      </a>
+      {/* BOUTONS DÉTACHÉS */}
+      <div className="flex flex-col items-center gap-3 mt-6">
+
+        {/* Ouvrir en PDF */}
+        <a
+          href="./files/CV-Badaoui-Adam.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="text-sm px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
+        >
+          Ouvrir le CV en PDF
+        </a>
+
+        {/* Télécharger */}
+        <a
+          href="./files/CV-Badaoui-Adam.pdf"
+          download
+          className="text-sm px-5 py-2 rounded-lg bg-neutral-800 border border-zinc-700 text-zinc-200 hover:bg-neutral-700 transition"
+        >
+          Télécharger le CV
+        </a>
+      </div>
 
       <div className="mb-16"></div>
     </section>
   );
 }
-
