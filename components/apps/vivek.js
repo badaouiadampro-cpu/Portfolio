@@ -998,4 +998,6 @@ function Resume() {
 
       <div className="mb-16"></div>
     </section>
+  );
+}
 
