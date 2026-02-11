@@ -967,22 +967,22 @@ function Resume() {
 
       {/* TEXTE INTRO */}
       <p className="mt-4 w-10/12 md:w-8/12 text-center text-sm md:text-base text-zinc-300">
-        Consultez mon CV directement en ligne ou téléchargez-le au format PDF.
+        Consultez mon CV directement en image ou ouvrez-le au format PDF.
       </p>
 
       {/* CARTE + HALO */}
-      <div className="relative mt-10 w-11/12 md:w-8/12 group">
+      <div className="relative mt-10 w-11/12 md:w-7/12 group">
         {/* Halo dégradé */}
         <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
         {/* Conteneur */}
         <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700 p-4">
 
-          {/* PDF affiché en entier */}
-          <embed
-            src="./files/CV-Badaoui-Adam.pdf"
-            type="application/pdf"
-            className="w-full min-h-[1200px] md:min-h-[1500px] rounded-lg"
+          {/* IMAGE DU CV */}
+          <img
+            src="./files/CV-Badaoui-Adam_page-0001.jpg"   // ← Mets ton image ici
+            alt="CV Adam Badaoui"
+            className="w-full rounded-lg"
           />
         </div>
       </div>
