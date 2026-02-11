@@ -971,19 +971,19 @@ function Resume() {
       </p>
 
       {/* CARTE + HALO */}
-      <div className="relative mt-10 w-11/12 md:w-8/12 h-[95vh] group">
+      <div className="relative mt-10 w-11/12 md:w-8/12 group">
         {/* Halo dégradé */}
         <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
         {/* Conteneur */}
-        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700 p-4">
 
-          {/* IFRAME EN GRAND FORMAT */}
-          <iframe
-            className="w-full h-full"
+          {/* PDF affiché en entier */}
+          <embed
             src="./files/CV-Badaoui-Adam.pdf"
-            title="CV Adam Badaoui"
-          ></iframe>
+            type="application/pdf"
+            className="w-full min-h-[1200px] md:min-h-[1500px] rounded-lg"
+          />
         </div>
       </div>
 
@@ -1014,3 +1014,4 @@ function Resume() {
     </section>
   );
 }
+
