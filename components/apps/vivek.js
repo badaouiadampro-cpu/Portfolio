@@ -178,15 +178,16 @@ function About() {
     <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
-      <h1 className="mt-10 text-2xl md:text-3xl font-bold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
+      <h1 className="mt-10 text-2xl md:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
         Présentation
       </h1>
 
       {/* QUI SUIS-JE */}
-      <div className="relative mt-8 w-full md:w-3/4">
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm"></div>
-        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition hover:border-zinc-700">
-          <h2 className="text-center text-lg font-semibold mb-4 text-pink-400">
+      <div className="relative mt-8 w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
+
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <h2 className="text-center text-xl font-bold mb-4 text-pink-400">
             Qui suis-je ?
           </h2>
 
@@ -205,8 +206,8 @@ function About() {
             </li>
 
             <li>
-              Mon parcours profesionel est le suivant : Avant l’informatique, j’ai suivi une
-              formation commerciale en premiere annee de BTS NDRC avant d&apos;integrer mon BTS SIO.
+              Mon parcours professionnel est le suivant : Avant l’informatique, j’ai suivi une
+              formation commerciale en première année de BTS NDRC avant d’intégrer mon BTS SIO.
               Cette double compétence technique et relationnelle me permet aujourd’hui de comprendre aussi bien
               les enjeux techniques que les besoins humains et métiers. Je sais analyser
               une problématique, la traduire en solution concrète et l’expliquer simplement.
@@ -215,102 +216,131 @@ function About() {
         </div>
       </div>
 
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
       {/* FORMATION */}
-      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <h2 className="text-center text-lg font-semibold mb-4 text-pink-400">
-          Formation
-        </h2>
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <ul className="text-sm md:text-base space-y-3">
-          <li>
-            <span className="font-medium">
-              BTS SIO – Services Informatiques aux Organisations (2024 – 2026)
-            </span><br />
-            Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
-          </li>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <h2 className="text-center text-xl font-bold mb-4 text-pink-400">
+            Formation
+          </h2>
 
-          <li>
-            <span className="font-medium">
-              BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
-            </span><br />
-            Acquisition de solides compétences en communication et gestion de projets.
-          </li>
+          <ul className="text-sm md:text-base space-y-3">
+            <li>
+              <span className="font-bold">
+                BTS SIO – Services Informatiques aux Organisations (2024 – 2026)
+              </span><br />
+              Spécialisation progressive vers les réseaux, systèmes et la cybersécurité.
+            </li>
 
-          <li>
-            <span className="font-medium">
-              Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)
-            </span>
-          </li>
-        </ul>
+            <li>
+              <span className="font-bold">
+                BTS NDRC – Négociation et Digitalisation de la Relation Client (2023 – 2024)
+              </span><br />
+              Acquisition de solides compétences en communication et gestion de projets.
+            </li>
+
+            <li>
+              <span className="font-bold">
+                Bac STMG – Sciences et Technologies du Management et de la Gestion (2022 – 2023)
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
+
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
 
       {/* EXPÉRIENCES */}
-      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <h2 className="text-center font-semibold mb-4 text-pink-400">
-          Expériences professionnelles
-        </h2>
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <ul className="text-sm md:text-base space-y-6">
-          <li>
-            <span className="font-medium">
-              Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
-            </span><br /><br />
-            - Assistance aux utilisateurs<br />
-            - Déploiement et administration de services réseau (VPN, DNS, DHCP)<br />
-            - Gestion d’infrastructures réseau<br />
-            - Téléphonie IP
-          </li>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <h2 className="text-center text-xl font-bold mb-4 text-pink-400">
+            Expériences professionnelles
+          </h2>
 
-          <li>
-            <span className="font-medium">
-              Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
-            </span><br /><br />
-            - Maintenance du parc informatique<br />
-            - Active Directory<br />
-            - Assistance utilisateurs<br />
-            - Documentation technique
-          </li>
-        </ul>
+          <ul className="text-sm md:text-base space-y-6">
+            <li>
+              <span className="font-bold">
+                Technicien Informatique – XEFI Poitiers (Janvier – Février 2026)
+              </span><br /><br />
+              - Assistance aux utilisateurs<br />
+              - Déploiement et administration de services réseau (VPN, DNS, DHCP)<br />
+              - Gestion d’infrastructures réseau<br />
+              - Téléphonie IP
+            </li>
+
+            <li>
+              <span className="font-bold">
+                Technicien Informatique – Lycée Saint-Jacques de Compostelle (Mai – Juin 2025)
+              </span><br /><br />
+              - Maintenance du parc informatique<br />
+              - Active Directory<br />
+              - Assistance utilisateurs<br />
+              - Documentation technique
+            </li>
+          </ul>
+        </div>
       </div>
+
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
 
       {/* COMPÉTENCES */}
-      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <h2 className="text-center font-semibold mb-4 text-pink-400">
-          Compétences techniques
-        </h2>
+      <div className="relative w-full md:w-3/4 group">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <ul className="text-sm md:text-base space-y-4">
-          <li><span className="font-medium">Systèmes & Réseaux</span><br />Windows Server, Linux, AD, DHCP, DNS, VPN, Apache</li>
-          <li><span className="font-medium">Réseau & Sécurité</span><br />Pare-feu, routeurs, switchs</li>
-          <li><span className="font-medium">Support & Méthodologie</span><br />Assistance, diagnostic, documentation</li>
-        </ul>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <h2 className="text-center text-xl font-bold mb-4 text-pink-400">
+            Compétences techniques
+          </h2>
+
+          <ul className="text-sm md:text-base space-y-4">
+            <li><span className="font-bold">Systèmes & Réseaux</span><br />Windows Server, Linux, AD, DHCP, DNS, VPN, Apache</li>
+            <li><span className="font-bold">Réseau & Sécurité</span><br />Pare-feu, routeurs, switchs</li>
+            <li><span className="font-bold">Support & Méthodologie</span><br />Assistance, diagnostic, documentation</li>
+          </ul>
+        </div>
       </div>
 
+      {/* SÉPARATEUR */}
+      <div className="my-10 w-1/3 h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+
       {/* LANGUES & OBJECTIF */}
-      <div className="mt-10 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition">
-        <h2 className="text-center font-semibold text-pink-400 mb-2">Langues</h2>
-        <p className="text-center text-sm md:text-base">
-          Français · Arabe · Anglais (B2)
-        </p>
+      <div className="relative w-full md:w-3/4 group mb-12">
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-        <h2 className="mt-6 text-center font-semibold text-pink-400">
-          Objectif professionnel
-        </h2>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <h2 className="text-center text-xl font-bold text-pink-400 mb-2">Langues</h2>
+          <p className="text-center text-sm md:text-base">
+            Français · Arabe · Anglais (B2)
+          </p>
 
-        <p className="mt-3 text-sm md:text-base text-center">
-          Je souhaite développer mes compétences et acquérir une véritable expérience professionnelle grâce à une alternance.
-          La cybersécurité représente pour moi un domaine stratégique où rigueur, éthique et responsabilité sont essentielles.
-        </p>
+          <h2 className="mt-6 text-center text-xl font-bold text-pink-400">
+            Objectif professionnel
+          </h2>
+
+          <p className="mt-3 text-sm md:text-base text-center">
+            Je souhaite développer mes compétences et acquérir une véritable expérience professionnelle grâce à une alternance.
+            La cybersécurité représente pour moi un domaine stratégique où rigueur, éthique et responsabilité sont essentielles.
+          </p>
+        </div>
       </div>
 
       {/* CONTACT */}
-      <div className="mt-10 mb-12 text-center text-sm text-zinc-400">
+      <div className="mt-4 mb-12 text-center text-sm text-zinc-400">
         📧 badaoui.adam.pro@gmail.com <br />
         🌐 ab-portfolio.fr
       </div>
     </div>
   );
 }
+
 
 
 
@@ -443,7 +473,7 @@ function Education() {
           </div>
 
           <div className="text-sm text-zinc-400 mt-1">
-            2023 – 2024 · Ynov Campus, Bordeaux
+            2026 – 2027 · Ynov Campus, Bordeaux
           </div>
 
           <div className="mt-2 text-sm md:text-base text-zinc-200">
