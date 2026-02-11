@@ -957,12 +957,47 @@ function Projects() {
    ========================= */
 
 function Resume() {
-    return (
-        <iframe
-            className="h-full w-full"
-            src="./files/CV-Badaoui-Adam.pdf" // mets ton vrai fichier ici
+  return (
+    <section className="w-full flex flex-col items-center">
+
+      {/* TITRE */}
+      <h1 className="mt-10 text-2xl md:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
+        Mon CV
+      </h1>
+
+      {/* TEXTE INTRO */}
+      <p className="mt-4 w-10/12 md:w-8/12 text-center text-sm md:text-base text-zinc-300">
+        Retrouvez ici mon CV complet, consultable directement en ligne ou téléchargeable au format PDF.
+      </p>
+
+      {/* CARTE + HALO */}
+      <div className="relative mt-10 w-11/12 md:w-8/12 h-[80vh] group">
+        {/* Halo dégradé */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
+
+        {/* Conteneur */}
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+
+          {/* IFRAME */}
+          <iframe
+            className="w-full h-full rounded-xl"
+            src="./files/CV-Badaoui-Adam.pdf"
             title="CV Adam Badaoui"
-            frameBorder="0"
-        ></iframe>
-    );
+          ></iframe>
+        </div>
+      </div>
+
+      {/* BOUTON DÉTACHÉ */}
+      <a
+        href="./files/CV-Badaoui-Adam.pdf"
+        download
+        className="mt-6 inline-block text-sm px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
+      >
+        Télécharger le CV
+      </a>
+
+      <div className="mb-16"></div>
+    </section>
+  );
 }
+
