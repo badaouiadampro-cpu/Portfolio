@@ -602,57 +602,65 @@ function Skills() {
     );
 }*/
 function Skills() {
-    return (
-        <section className="w-full flex flex-col items-center">
-            <h2 className="text-2xl font-semibold mb-4">
-                Compétences techniques
-            </h2>
+  return (
+    <section className="w-full flex flex-col items-center">
 
-            <p className="w-10/12 md:w-8/12 text-sm md:text-base text-center text-zinc-300">
-                Le tableau de compétences est un document clé pour l’épreuve E5 du BTS SIO.
-                Il synthétise les compétences acquises en formation et en entreprise,
-                en lien direct avec les projets techniques présentés sur ce portfolio.
-            </p>
+      {/* TITRE */}
+      <h2 className="mt-10 text-2xl md:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
+        Compétences techniques
+      </h2>
 
-            {/* Bloc document */}
-            <div className="relative mt-8 w-10/12 md:w-8/12">
-                {/* Dégradé */}
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-sm"></div>
+      {/* TEXTE INTRO */}
+      <p className="w-10/12 md:w-8/12 text-sm md:text-base text-center text-zinc-300 mt-4">
+        Le tableau de compétences est un document clé pour l’épreuve E5 du BTS SIO.
+        Il synthétise les compétences acquises en formation et en entreprise,
+        en lien direct avec les projets techniques présentés sur ce portfolio.
+      </p>
 
-                <div className="relative bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                    <div className="flex justify-between items-center">
-                        <div>
-                            <h3 className="font-bold text-lg text-zinc-100">
-                                Tableau de compétences – BTS SIO
-                            </h3>
-                            <p className="text-sm text-zinc-400">
-                                Épreuve E5 · Document PDF
-                            </p>
-                        </div>
+      {/* CARTE */}
+      <div className="relative mt-10 w-10/12 md:w-8/12 group">
+        {/* Halo dégradé */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-                        <span className="text-xs px-2 py-1 rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/20">
-                            En cours
-                        </span>
-                    </div>
-
-                    <ul className="mt-3 text-sm text-zinc-200 list-disc ml-4 space-y-1">
-                        <li>Recensement structuré des compétences techniques.</li>
-                        <li>Appui aux projets et procédures professionnelles.</li>
-                        <li>Support officiel pour la validation du diplôme.</li>
-                    </ul>
-
-                    <a
-                        href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="mt-4 inline-block text-sm px-4 py-2 rounded bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
-                    >
-                        Ouvrir le tableau de compétences
-                    </a>
-                </div>
+        {/* Carte */}
+        <div className="relative bg-neutral-900 border border-neutral-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+          <div className="flex justify-between items-center">
+            <div>
+              <h3 className="font-bold text-lg text-zinc-100">
+                Tableau de compétences – BTS SIO
+              </h3>
+              <p className="text-sm text-zinc-400">
+                Épreuve E5 · Document PDF
+              </p>
             </div>
-        </section>
-    );
+
+            <span className="text-xs px-2 py-1 rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/20">
+              En cours
+            </span>
+          </div>
+
+          <ul className="mt-4 text-sm md:text-base text-zinc-200 list-disc ml-4 space-y-1">
+            <li>Recensement structuré des compétences techniques.</li>
+            <li>Appui aux projets et procédures professionnelles.</li>
+            <li>Support officiel pour la validation du diplôme.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* BOUTON DÉTACHÉ */}
+      <a
+        href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-6 inline-block text-sm px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
+      >
+        Ouvrir le tableau de compétences
+      </a>
+
+      {/* ESPACE BAS */}
+      <div className="mb-16"></div>
+    </section>
+  );
 }
 
 
