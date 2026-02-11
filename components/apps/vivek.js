@@ -422,35 +422,34 @@ function About() {
     );
 }
 */
-/* =========================
-   SECTION : SCOLARITÉ
-========================= */
-
 function Education() {
   return (
-      <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
+    <div className="min-h-screen bg-zinc-950 text-zinc-200 px-4 md:px-0 flex flex-col items-center">
 
       {/* TITRE */}
       <h1 className="mt-10 text-2xl md:text-3xl font-bold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
         Scolarité
       </h1>
 
-      {/* CARD : BTS SIO }
-      <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
-*/
-        <div className="relative mt-6 w-full md:w-3/4 group"> <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition"></div> <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700"> <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
-        <div className="text-lg md:text-xl font-bold leading-tight">
-          BTS SIO – option SISR
-        </div>
+      {/* Nouvelle CARD : BTS SIO */}
+      <div className="relative mt-6 w-full md:w-3/4 group">
+        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition"></div>
 
-        <div className="text-sm text-zinc-400 mt-1">
-          2024 – 2026 · Lycée Aliénor d&apos;Aquitaine, Poitiers
-        </div>
+        <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
+          <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
-        <div className="mt-2 text-sm md:text-base text-zinc-200">
-          Spécialisation en solutions d&apos;infrastructure, systèmes et réseaux :
-          serveurs, services réseau, sécurité, virtualisation.
+          <div className="text-lg md:text-xl font-bold leading-tight">
+            BTS SIO – option SISR
+          </div>
+
+          <div className="text-sm text-zinc-400 mt-1">
+            2024 – 2026 · Lycée Aliénor d'Aquitaine, Poitiers
+          </div>
+
+          <div className="mt-2 text-sm md:text-base text-zinc-200">
+            Spécialisation en solutions d'infrastructure, systèmes et réseaux :
+            serveurs, services réseau, sécurité, virtualisation.
+          </div>
         </div>
       </div>
 
@@ -459,14 +458,14 @@ function Education() {
 
       {/* CARD : BTS NDRC */}
       <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
         <div className="text-lg md:text-xl font-bold leading-tight">
           BTS NDRC
         </div>
 
         <div className="text-sm text-zinc-400 mt-1">
-          2023 – 2024 · Lycée Bois d&apos;Amour, Poitiers
+          2023 – 2024 · Lycée Bois d'Amour, Poitiers
         </div>
 
         <div className="mt-2 text-sm md:text-base text-zinc-200">
@@ -480,7 +479,7 @@ function Education() {
 
       {/* CARD : BAC STMG */}
       <div className="relative w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+        <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
 
         <div className="text-lg md:text-xl font-bold leading-tight">
           Baccalauréat STMG
