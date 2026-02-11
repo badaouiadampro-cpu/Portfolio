@@ -435,10 +435,11 @@ function Education() {
         Scolarité
       </h1>
 
-      {/* CARD : BTS SIO */}
+      {/* CARD : BTS SIO }
       <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
         <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
-
+*/
+        <div className="relative mt-6 w-full md:w-3/4 group"> <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500/30 to-violet-500/30 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition"></div> <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700"> <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full"></span>
         <div className="text-lg md:text-xl font-bold leading-tight">
           BTS SIO – option SISR
         </div>
