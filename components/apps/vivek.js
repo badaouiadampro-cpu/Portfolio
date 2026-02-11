@@ -686,7 +686,7 @@ function Projects() {
       pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf",
       description: [
         "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau (postes utilisateurs, serveurs, équipements d’administration)",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
       ],
     },
     {
@@ -704,7 +704,7 @@ function Projects() {
       pdf: "./files/THOMYRIS - SOPHOS - Initialisation authentification à double facteur.pdf",
       description: [
         "Mise en place de l’authentification forte (One-Time Password) sur un firewall Sophos afin de renforcer la sécurité des accès utilisateurs.",
-        "Configuration de l’authentification à double facteur via le UserPortal",
+        "Configuration de l’authentification à double facteur via le UserPortal.",
       ],
     },
     {
@@ -740,42 +740,48 @@ function Projects() {
     <div className="w-full flex flex-col items-center">
 
       {/* TITRE */}
-      <div className="mt-8 text-lg md:text-2xl font-bold tracking-wide text-zinc-200">
+      <h1 className="mt-10 text-2xl md:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent">
         Projets & Réalisations
-      </div>
+      </h1>
 
       {project_list.map((project, index) => (
         <div key={index} className="w-full flex flex-col items-center">
 
           {/* CARD PROJET */}
-          <div className="relative mt-6 w-full md:w-3/4 bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[2px] hover:border-zinc-700">
-            <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+          <div className="relative mt-6 w-full md:w-3/4 group">
+            {/* Halo dégradé */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/40 to-violet-500/40 rounded-xl blur-md opacity-0 group-hover:opacity-100 transition"></div>
 
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
-              <div className="text-lg md:text-xl font-bold leading-tight">
-                {project.name}
+            {/* Carte */}
+            <div className="relative bg-neutral-900 border border-zinc-800 rounded-xl p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-zinc-700">
+              <span className="absolute left-0 top-6 h-8 w-[2px] bg-gradient-to-b from-pink-500 to-violet-500 rounded-full" />
+
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
+                <div className="text-lg md:text-xl font-bold leading-tight">
+                  {project.name}
+                </div>
+                <div className="text-sm text-zinc-400">
+                  {project.date}
+                </div>
               </div>
-              <div className="text-sm text-zinc-400">
-                {project.date}
-              </div>
+
+              <ul className="mt-3 text-sm md:text-base space-y-2">
+                {project.description.map((line, i) => (
+                  <li key={i}>- {line}</li>
+                ))}
+              </ul>
+
+              {project.pdf && (
+                <a
+                  href={project.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-sm text-pink-400 hover:text-pink-300 transition"
+                >
+                  Voir la documentation PDF →
+                </a>
+              )}
             </div>
-
-            <ul className="mt-3 text-sm md:text-base space-y-2">
-              {project.description.map((line, i) => (
-                <li key={i}>- {line}</li>
-              ))}
-            </ul>
-
-            {project.pdf && (
-              <a
-                href={project.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mt-4 text-sm text-pink-400 hover:text-pink-300 transition"
-              >
-                Voir la documentation PDF →
-              </a>
-            )}
           </div>
 
           {/* SÉPARATEUR */}
@@ -789,7 +795,6 @@ function Projects() {
     </div>
   );
 }
-
 
 
 /* =========================
