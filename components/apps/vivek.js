@@ -697,7 +697,7 @@ function Projects() {
         "Analyse du contexte, identification des besoins, définition des objectifs et présentation des contraintes techniques.",
       ],
     },
-     {
+    {
       name: "Organisation et gestion du parc informatique - Lycée Saint Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Organisation et gestion du parc informatique Badaoui Adam.pdf",
@@ -727,8 +727,7 @@ function Projects() {
     {
       name: "Fiche de procédure - Docker",
       date: "2026",
-      pdf: "./files/Fiche de procédure Docker.pdf
-",
+      pdf: "./files/Fiche de procédure Docker.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
