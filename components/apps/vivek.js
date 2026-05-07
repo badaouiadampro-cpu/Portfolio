@@ -649,7 +649,7 @@ function Skills() {
 
       {/* BOUTON DÉTACHÉ */}
       <a
-        href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025 - Tableau_de_synthèse_Épreuve_E4.pdf"
+        href="./files/Tableau de synthèse - Épreuve E5 - BTS SIO 2025.pdf"
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-block text-sm px-5 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-violet-500 text-white hover:opacity-90 transition"
