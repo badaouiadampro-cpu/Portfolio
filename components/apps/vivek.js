@@ -691,7 +691,7 @@ function Projects() {
     {
       name: "Interventions en Stage - Xefi",
       date: "2026",
-      pdf: "./files/public/files/Interventions_Stage_Xefi.docx.pdf",
+      pdf: "./files/Interventions_Stage_Xefi.docx.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
@@ -700,7 +700,7 @@ function Projects() {
     {
       name: "Fiche de procédure Deploiment Windows 11",
       date: "2026",
-      pdf: "./files/public/files/Procedure_Deploiement_Windows11_WindowsServer2022.docx.pdf",
+      pdf: "./files/Procedure_Deploiement_Windows11_WindowsServer2022.docx.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
