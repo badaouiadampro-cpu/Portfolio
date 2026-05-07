@@ -680,6 +680,11 @@ function Projects() {
       ],
     },
     {
+      name: "Interventions Lycée Saint Jacques de compostelle.pdf",
+      date: "2025",
+      pdf: "public/files/Interventions réalisés Stage Badaoui Adam.pdf",
+    },
+    {
       name: "Firewall - Sophos XGS",
       date: "2026",
       pdf: "./files/THOMYRIS - SOPHOS - XGS - Procédure Initialisation FIREWALL V1.8.1.pdf",
