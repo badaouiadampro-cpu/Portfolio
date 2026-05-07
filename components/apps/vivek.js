@@ -680,9 +680,13 @@ function Projects() {
       ],
     },
     {
-      name: "Interventions Lycée Saint Jacques de compostelle.pdf",
+      name: "Interventions Lycée Saint Jacques de compostelle",
       date: "2025",
-      pdf: "public/files/Interventions réalisés Stage Badaoui Adam.pdf",
+      pdf: ""public/files/Interventions réalisés Stage Badaoui Adam.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
     },
     {
       name: "Firewall - Sophos XGS",
