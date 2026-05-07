@@ -788,6 +788,69 @@ function Projects() {
       ],
     },
     {
+      name: "WiFi - Aruba Instant On",
+      date: "2026",
+      pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Procédure d’installation - GLPI Debian Console",
+      date: "2025",
+      pdf: "./files/Procédure d’installation de GLPI sur Debian Console.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche procédure — Référencement Web",
+      date: "2026",
+      pdf: "./files/Fiche procédure — Référencement Web.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Mise en place d’un serveur DHCP",
+      date: "2026",
+      pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Snipe-IT",
+      date: "2026",
+      pdf: "./files/Fiche de procédure Snipe-IT.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Mise en place du service DNS",
+      date: "2025",
+      pdf: "./files/Fiche de procédure - Mise en place du service DNS.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Installation et paramétrage du client FOG",
+      date: "2025",
+      pdf: "./files/Fiche de procédure - Installation et paramétrage du client FOG.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
       name: "Sécurité des postes - Sophos Endpoint (Cryptoprotect)",
       date: "2026",
       pdf: "./files/THOMYRIS_SOPHOS_Cryptoprotect.pdf",
