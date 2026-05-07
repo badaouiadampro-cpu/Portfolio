@@ -671,9 +671,9 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "GSB - WebLab",
+      name: "GSB 4.4 - WebLab",
       date: "2025",
-      pdf: "public/files/THOMYRIS_SOPHOS_XGS_FIREWALL_V1_8_1.pdf",
+      pdf: "public/files/AP4_synthetique_10_pages.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
@@ -790,7 +790,7 @@ function Projects() {
     {
       name: "WiFi - Aruba Instant On",
       date: "2026",
-      pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf",
+      pdf: "./files/THOMYRIS - ARUBA WIFI.pdf",
       description: [
         "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
         "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
