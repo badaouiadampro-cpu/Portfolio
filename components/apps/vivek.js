@@ -672,8 +672,8 @@ function Projects() {
   const project_list = [
     {
       name: "GSB 4.4 - WebLab",
-      date: "2025",
-      pdf: "public/files/AP4_synthetique_10_pages.pdf",
+      date: "2026",
+      pdf: "./files/AP4_synthetique_10_pages.pdf",
       description: [
         "Déploiement d’une infrastructure WebLab composée de plusieurs services : serveur web, base de données, Active Directory et accès sécurisé.",
         "Configuration d’Apache, PHP, MariaDB, intégration au domaine, gestion des droits utilisateurs et sécurisation de base de l’environnement.",
