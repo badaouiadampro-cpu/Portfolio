@@ -689,6 +689,24 @@ function Projects() {
       ],
     },
     {
+      name: "Cahier des charges - Lycée Saint Jacques de compostelle",
+      date: "2025",
+      pdf: "./files/Cahier des charges Stage Badaoui Adam.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+     {
+      name: "Organisation et gestion du parc informatique - Lycée Saint Jacques de compostelle",
+      date: "2025",
+      pdf: "./files/Organisation et gestion du parc informatique Badaoui Adam.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
       name: "Interventions en Stage - Xefi",
       date: "2026",
       pdf: "./files/Interventions_Stage_Xefi.docx.pdf",
@@ -698,7 +716,16 @@ function Projects() {
       ],
     },
     {
-      name: "Fiche de procédure Deploiment Windows 11",
+      name: "Cahier des charges 1 - Xefi",
+      date: "2026",
+      pdf: "./files/Deploiement_de_postes_automatise.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Fiche de procédure Deploiment Windows 11 - Xefi",
       date: "2026",
       pdf: "./files/Procedure_Deploiement_Windows11_WindowsServer2022.docx.pdf",
       description: [
@@ -706,7 +733,15 @@ function Projects() {
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
       ],
     },
-    
+    {
+      name: "Carnet de bord - Xefi",
+      date: "2026",
+      pdf: "./files/Carnet_de_bord_Badaoui.docx.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
     {
       name: "Firewall - Sophos XGS",
       date: "2026",
