@@ -675,8 +675,8 @@ function Projects() {
       date: "2025",
       pdf: "public/files/AP4_synthetique_10_pages.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Déploiement d’une infrastructure WebLab composée de plusieurs services : serveur web, base de données, Active Directory et accès sécurisé.",
+        "Configuration d’Apache, PHP, MariaDB, intégration au domaine, gestion des droits utilisateurs et sécurisation de base de l’environnement.",
       ],
     },
     {
@@ -684,8 +684,8 @@ function Projects() {
       date: "2025",
       pdf: "./files/Interventions réalisés Stage Badaoui Adam.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Réalisation d’interventions techniques dans un environnement scolaire : assistance utilisateurs, maintenance de postes et résolution d’incidents.",
+        "Participation à la gestion du parc informatique, au support matériel et logiciel, ainsi qu’au suivi des interventions réalisées.",
       ],
     },
     {
@@ -693,8 +693,8 @@ function Projects() {
       date: "2025",
       pdf: "./files/Cahier des charges Stage Badaoui Adam.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+       "Rédaction d’un cahier des charges lié aux besoins informatiques du lycée et à l’organisation du parc matériel.",
+        "Analyse du contexte, identification des besoins, définition des objectifs et présentation des contraintes techniques.",
       ],
     },
      {
@@ -702,8 +702,8 @@ function Projects() {
       date: "2025",
       pdf: "./files/Organisation et gestion du parc informatique Badaoui Adam.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Organisation, inventaire et suivi du parc informatique de l’établissement.",
+        "Gestion du matériel, suivi des équipements, mise à jour des informations et amélioration de la traçabilité du parc.",
       ],
     },
     {
@@ -711,8 +711,8 @@ function Projects() {
       date: "2026",
       pdf: "./files/Interventions_Stage_Xefi.docx.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Réalisation d’interventions techniques en entreprise : préparation de postes, assistance utilisateurs et participation au support informatique.",
+        "Suivi des demandes, résolution d’incidents et participation aux opérations de maintenance matérielle et logicielle.",
       ],
     },
     {
@@ -727,7 +727,8 @@ function Projects() {
     {
       name: "Fiche de procédure - Docker",
       date: "2026",
-      pdf: "./files/Deploiement_de_postes_automatise.pdf",
+      pdf: "./files/Fiche de procédure Docker.pdf
+",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
@@ -736,7 +737,7 @@ function Projects() {
     {
       name: "Fiche de procédure - Deploiment Windows 11 - Xefi",
       date: "2026",
-      pdf: "./files/Fiche de procédure Docker.pdf",
+      pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
