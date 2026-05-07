@@ -680,7 +680,7 @@ function Projects() {
       ],
     },
     {
-      name: "Interventions en stage - Lycée Saint Jacques de compostelle",
+      name: "Interventions en stage - Lycée Saint Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Interventions réalisés Stage Badaoui Adam.pdf",
       description: [
@@ -689,7 +689,7 @@ function Projects() {
       ],
     },
     {
-      name: "Cahier des charges - Lycée Saint Jacques de compostelle",
+      name: "Cahier des charges - Lycée Saint Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Cahier des charges Stage Badaoui Adam.pdf",
       description: [
@@ -698,7 +698,7 @@ function Projects() {
       ],
     },
      {
-      name: "Organisation et gestion du parc informatique - Lycée Saint Jacques de compostelle",
+      name: "Organisation et gestion du parc informatique - Lycée Saint Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Organisation et gestion du parc informatique Badaoui Adam.pdf",
       description: [
@@ -779,9 +779,9 @@ function Projects() {
       ],
     },
     {
-      name: "WiFi - Aruba Instant On",
+      name: "Création Logo - Lycée Saint Jacques de Compostelle",
       date: "2026",
-      pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf",
+      pdf: "./files/Design sans titre.png",
       description: [
         "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
         "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
@@ -791,6 +791,15 @@ function Projects() {
       name: "WiFi - Aruba Instant On",
       date: "2026",
       pdf: "./files/THOMYRIS - ARUBA WIFI - INITIALISATION AVEC CENTRAL OU LOCAL V.6.pdf",
+      description: [
+        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
+        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+      ],
+    },
+    {
+      name: "Fiche procédure - Veeam",
+      date: "2025",
+      pdf: "./files/fiche-de-procedure-config-sauvegarde.pdf",
       description: [
         "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
         "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
