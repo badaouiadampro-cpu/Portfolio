@@ -671,7 +671,7 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "GSB 4.4 - WebLab GSB",
+      name: "AP 4.4 - WebLab GSB",
       date: "2026",
       pdf: "./files/AP4_synthetique_10_pages.pdf",
       description: [
@@ -728,6 +728,60 @@ function Projects() {
       name: "Fiche de procédure - Docker",
       date: "2026",
       pdf: "./files/Fiche de procédure Docker.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Mikrotik",
+      date: "2026",
+      pdf: "./files/fiche_mikrotik.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - WirelessMon",
+      date: "2026",
+      pdf: "./files/Fiche de procédure — Cartographier un réseau Wi-Fi avec WirelessMon.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Virtualisation avec Disk2vhd",
+      date: "2025",
+      pdf: "./files/FICHE_PROCÉDURE_Virtualisation_Disk2vhd.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Carnet de bord - Lycée Saint Jacques de Compostelle",
+      date: "2025",
+      pdf: "./files/Carnet de bord Stage Badaoui Adam.pdf",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "AP 4.4 - Schéma GSB",
+      date: "2025",
+      pdf: "./files/Schéma GSB Réseau.png",
+      description: [
+        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
+        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Deploiment Windows 11 - Xefi",
+      date: "2026",
+      pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
       description: [
         "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
         "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
@@ -815,7 +869,16 @@ function Projects() {
       ],
     },
     {
-      name: "AP3.4 - Weblab GSB (WEB et PHP)",
+      name: "Mémento - Routeur Zyxel",
+      date: "2026",
+      pdf: "./files/memento_zyxel.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "AP 3.4 - Weblab GSB (WEB et PHP)",
       date: "2026",
       pdf: "./files/Fiche_procédure_WEB_GSB.pdf",
       description: [
