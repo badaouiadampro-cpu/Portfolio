@@ -798,7 +798,7 @@ function Projects() {
     {
       name: "AP 4.4 - Schéma réseau GSB",
       date: "2026",
-      pdf: "./files/Schéma GSB Réseau.png",
+      pdf: "./files/Schema GSB Reseau.png",
       description: [
         "Réalisation d’un schéma réseau représentant l’infrastructure du projet GSB.",
         "Visualisation des serveurs, des postes clients, des services réseau et des liens entre les différents éléments.",
@@ -834,7 +834,7 @@ function Projects() {
     {
       name: "Projet - Renouvellement du parc informatique",
       date: "2025",
-      pdf: "./files/Procédure_renouvellement_parc_informatique.pdf",
+      pdf: "./files/Procedure_renouvellement_parc_informatique.pdf",
       description: [
         "Organisation du renouvellement d’un parc informatique : retrait des anciens équipements et installation du nouveau matériel.",
         "Branchement, vérification, préparation des postes, gestion du matériel et mise au rebut via la filière D3E.",
@@ -879,7 +879,7 @@ function Projects() {
     {
       name: "AP 3.4 - WebLab GSB - Serveur Web et PHP",
       date: "2025",
-      pdf: "./files/Fiche_procédure_WEB_GSB.pdf",
+      pdf: "./files/Fiche_procedure_WEB_GSB.pdf",
       description: [
         "Configuration du serveur web pour l’hébergement de l’application GSB.",
         "Installation et paramétrage d’Apache, PHP et des fichiers nécessaires au bon fonctionnement de l’application.",
@@ -888,7 +888,7 @@ function Projects() {
     {
       name: "AP 3.4 - WebLab GSB - Base de données",
       date: "2025",
-      pdf: "./files/Fiche_procédure_BDD_GSB.pdf",
+      pdf: "./files/Fiche_procedure_BDD_GSB.pdf",
       description: [
         "Mise en place du serveur de base de données pour l’application GSB.",
         "Installation de MariaDB, création de la base, importation des tables et configuration des accès utilisateurs.",
