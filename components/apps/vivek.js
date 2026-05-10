@@ -667,7 +667,6 @@ function Skills() {
 /* =========================
    SECTION : PROJETS V2
 ========================= */
-
 function Projects() {
   const project_list = [
     {
@@ -675,12 +674,12 @@ function Projects() {
       date: "2026",
       pdf: "./files/AP4_synthetique_10_pages.pdf",
       description: [
-        "Déploiement d’une infrastructure WebLab composée de plusieurs services : serveur web, base de données, Active Directory et accès sécurisé.",
-        "Configuration d’Apache, PHP, MariaDB, intégration au domaine, gestion des droits utilisateurs et sécurisation de base de l’environnement.",
+        "Déploiement d’une infrastructure WebLab composée de plusieurs services : serveur web, serveur de base de données, Active Directory et accès sécurisé.",
+        "Configuration d’Apache, PHP et MariaDB, intégration au domaine, gestion des droits utilisateurs et sécurisation de base de l’environnement.",
       ],
     },
     {
-      name: "Interventions en stage - Lycée Saint Jacques de Compostelle",
+      name: "Interventions en stage - Lycée Saint-Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Interventions réalisés Stage Badaoui Adam.pdf",
       description: [
@@ -689,16 +688,16 @@ function Projects() {
       ],
     },
     {
-      name: "Cahier des charges - Lycée Saint Jacques de Compostelle",
+      name: "Cahier des charges - Lycée Saint-Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Cahier des charges Stage Badaoui Adam.pdf",
       description: [
-       "Rédaction d’un cahier des charges lié aux besoins informatiques du lycée et à l’organisation du parc matériel.",
+        "Rédaction d’un cahier des charges lié aux besoins informatiques du lycée et à l’organisation du parc matériel.",
         "Analyse du contexte, identification des besoins, définition des objectifs et présentation des contraintes techniques.",
       ],
     },
     {
-      name: "Organisation et gestion du parc informatique - Lycée Saint Jacques de Compostelle",
+      name: "Organisation et gestion du parc informatique - Lycée Saint-Jacques de Compostelle",
       date: "2025",
       pdf: "./files/Organisation et gestion du parc informatique Badaoui Adam.pdf",
       description: [
@@ -707,11 +706,29 @@ function Projects() {
       ],
     },
     {
-      name: "Interventions en Stage - Xefi",
+      name: "Carnet de bord - Lycée Saint-Jacques de Compostelle",
+      date: "2025",
+      pdf: "./files/Carnet de bord Stage Badaoui Adam.pdf",
+      description: [
+        "Suivi chronologique des activités réalisées durant le stage au lycée.",
+        "Présentation des missions effectuées, des interventions techniques et des compétences mobilisées.",
+      ],
+    },
+    {
+      name: "Création de logo - Lycée Saint-Jacques de Compostelle",
+      date: "2026",
+      pdf: "./files/Design sans titre.png",
+      description: [
+        "Création d’un logo dans le cadre d’un projet lié au lycée Saint-Jacques de Compostelle.",
+        "Travail de conception graphique, choix visuel et production d’un support de communication.",
+      ],
+    },
+    {
+      name: "Interventions en stage - Xefi",
       date: "2026",
       pdf: "./files/Interventions_Stage_Xefi.docx.pdf",
       description: [
-        "Réalisation d’interventions techniques en entreprise : préparation de postes, assistance utilisateurs et participation au support informatique.",
+        "Réalisation d’interventions techniques en entreprise : préparation de postes, assistance utilisateurs et support informatique.",
         "Suivi des demandes, résolution d’incidents et participation aux opérations de maintenance matérielle et logicielle.",
       ],
     },
@@ -720,80 +737,17 @@ function Projects() {
       date: "2026",
       pdf: "./files/Deploiement_de_postes_automatise.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Rédaction d’un cahier des charges pour un projet de déploiement automatisé de postes informatiques.",
+        "Définition des besoins, des contraintes techniques, des ressources nécessaires et des résultats attendus.",
       ],
     },
     {
-      name: "Fiche de procédure - Docker",
+      name: "Fiche de procédure - Déploiement Windows 11 - Xefi",
       date: "2026",
-      pdf: "./files/Fiche de procédure Docker.pdf",
+      pdf: "./files/Deploiement_de_postes_automatise.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Fiche de procédure - Mikrotik",
-      date: "2026",
-      pdf: "./files/fiche_mikrotik.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Fiche de procédure - WirelessMon",
-      date: "2026",
-      pdf: "./files/Fiche de procédure — Cartographier un réseau Wi-Fi avec WirelessMon.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Fiche de procédure - Virtualisation avec Disk2vhd",
-      date: "2025",
-      pdf: "./files/FICHE_PROCÉDURE_Virtualisation_Disk2vhd.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Carnet de bord - Lycée Saint Jacques de Compostelle",
-      date: "2025",
-      pdf: "./files/Carnet de bord Stage Badaoui Adam.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "AP 4.4 - Schéma GSB",
-      date: "2025",
-      pdf: "./files/Schéma GSB Réseau.png",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Fiche de procédure - Deploiment Windows 11 - Xefi",
-      date: "2026",
-      pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
-      ],
-    },
-    {
-      name: "Fiche de procédure - Deploiment Windows 11 - Xefi",
-      date: "2026",
-      pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
-      description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Procédure de déploiement automatisé de postes Windows 11 dans un environnement professionnel.",
+        "Préparation de l’image système, automatisation de l’installation, configuration initiale et vérification du bon fonctionnement des postes.",
       ],
     },
     {
@@ -801,8 +755,53 @@ function Projects() {
       date: "2026",
       pdf: "./files/Carnet_de_bord_Badaoui.docx.pdf",
       description: [
-        "Environnement composé de plusieurs VM : serveur web, serveur de bases de données, Active Directory, SFTP, etc.",
-        "Configuration d’Apache/PHP/MariaDB, intégration au domaine, gestion des droits et de la sécurité de base.",
+        "Suivi des activités réalisées durant le stage chez Xefi.",
+        "Présentation des interventions, des missions de support et des compétences techniques développées.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Docker",
+      date: "2026",
+      pdf: "./files/Fiche de procédure Docker.pdf",
+      description: [
+        "Mise en place d’environnements applicatifs à l’aide de Docker et Docker Compose.",
+        "Création, configuration et lancement de conteneurs pour déployer des services web de manière isolée et reproductible.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - MikroTik",
+      date: "2026",
+      pdf: "./files/fiche_mikrotik.pdf",
+      description: [
+        "Présentation des commandes et paramètres essentiels pour administrer un équipement MikroTik.",
+        "Configuration de base du réseau, des interfaces, du routage, du pare-feu et des services principaux.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - WirelessMon",
+      date: "2026",
+      pdf: "./files/Fiche de procédure — Cartographier un réseau Wi-Fi avec WirelessMon.pdf",
+      description: [
+        "Utilisation de WirelessMon pour analyser et cartographier un réseau Wi-Fi.",
+        "Relevé des signaux, identification des points d’accès, analyse de la couverture et repérage des zones faibles.",
+      ],
+    },
+    {
+      name: "Fiche de procédure - Virtualisation avec Disk2vhd",
+      date: "2025",
+      pdf: "./files/FICHE_PROCÉDURE_Virtualisation_Disk2vhd.pdf",
+      description: [
+        "Création d’une image virtuelle d’un poste physique à l’aide de Disk2vhd.",
+        "Conversion du disque en fichier VHD/VHDX afin de permettre son utilisation dans un environnement virtualisé.",
+      ],
+    },
+    {
+      name: "AP 4.4 - Schéma réseau GSB",
+      date: "2026",
+      pdf: "./files/Schéma GSB Réseau.png",
+      description: [
+        "Réalisation d’un schéma réseau représentant l’infrastructure du projet GSB.",
+        "Visualisation des serveurs, des postes clients, des services réseau et des liens entre les différents éléments.",
       ],
     },
     {
@@ -810,8 +809,8 @@ function Projects() {
       date: "2026",
       pdf: "./files/THOMYRIS - SOPHOS - XGS - Procédure Initialisation FIREWALL V1.8.1.pdf",
       description: [
-        "Configuration d'un Pare-feu Sophos XGS en entreprise dans le contexte de l'installation d'une infrastructure réseau pour une collectivité territoriale.",
-        "Configuration, tests de connectivité, sécurisation des flux entre LAN, DMZ et WAN.",
+        "Configuration initiale d’un pare-feu Sophos XGS dans le cadre du déploiement d’une infrastructure réseau professionnelle.",
+        "Paramétrage des interfaces, sécurisation des flux, tests de connectivité et mise en place des règles de filtrage.",
       ],
     },
     {
@@ -819,8 +818,8 @@ function Projects() {
       date: "2026",
       pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Configuration d’un switch Aruba dans un environnement réseau professionnel.",
+        "Mise en place des VLAN, configuration des ports, segmentation du réseau et tests de communication entre les équipements.",
       ],
     },
     {
@@ -828,26 +827,26 @@ function Projects() {
       date: "2026",
       pdf: "./files/TP_Haute_Disponibilité.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Étude et mise en place d’une solution de haute disponibilité pour assurer la continuité de service.",
+        "Analyse des risques, configuration de mécanismes de redondance et vérification du basculement en cas d’incident.",
       ],
     },
     {
-      name: "Projet - Renouvellement du parc Informatique",
+      name: "Projet - Renouvellement du parc informatique",
       date: "2025",
       pdf: "./files/Procédure_renouvellement_parc_informatique.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Organisation du renouvellement d’un parc informatique : retrait des anciens équipements et installation du nouveau matériel.",
+        "Branchement, vérification, préparation des postes, gestion du matériel et mise au rebut via la filière D3E.",
       ],
     },
     {
-      name: "TP - Cloud privé, Cloud Public",
+      name: "TP - Cloud privé et Cloud public",
       date: "2026",
       pdf: "./files/Cloud privé et cloud public.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Comparaison entre les solutions de cloud privé et de cloud public.",
+        "Analyse des avantages, des limites, des usages possibles et des enjeux liés à la sécurité, aux coûts et à la disponibilité.",
       ],
     },
     {
@@ -855,44 +854,44 @@ function Projects() {
       date: "2026",
       pdf: "./files/Mémento 3CX — Téléphonie IP _ PBX.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Synthèse des notions essentielles liées à la téléphonie IP et à l’administration d’un PBX 3CX.",
+        "Présentation des commandes, paramètres et éléments à connaître pour gérer les utilisateurs, extensions et appels.",
       ],
     },
     {
       name: "Mémento - Switch Cisco",
-      date: "2026",
+      date: "2025",
       pdf: "./files/Mémento Cisco.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Mémento des commandes principales pour configurer et administrer un switch Cisco.",
+        "Configuration des VLAN, des ports, du trunk, des interfaces et vérification de l’état du réseau.",
       ],
     },
     {
       name: "Mémento - Routeur Zyxel",
-      date: "2026",
+      date: "2025",
       pdf: "./files/memento_zyxel.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Synthèse des paramètres importants pour administrer un routeur Zyxel.",
+        "Configuration réseau de base, accès à l’interface, gestion du Wi-Fi, du pare-feu et des règles de sécurité.",
       ],
     },
     {
-      name: "AP 3.4 - Weblab GSB (WEB et PHP)",
-      date: "2026",
+      name: "AP 3.4 - WebLab GSB - Serveur Web et PHP",
+      date: "2025",
       pdf: "./files/Fiche_procédure_WEB_GSB.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Configuration du serveur web pour l’hébergement de l’application GSB.",
+        "Installation et paramétrage d’Apache, PHP et des fichiers nécessaires au bon fonctionnement de l’application.",
       ],
     },
     {
-      name: "AP3.4 - Weblab GSB (BDD)",
-      date: "2026",
+      name: "AP 3.4 - WebLab GSB - Base de données",
+      date: "2025",
       pdf: "./files/Fiche_procédure_BDD_GSB.pdf",
       description: [
-        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
-        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+        "Mise en place du serveur de base de données pour l’application GSB.",
+        "Installation de MariaDB, création de la base, importation des tables et configuration des accès utilisateurs.",
       ],
     },
     {
@@ -900,80 +899,71 @@ function Projects() {
       date: "2026",
       pdf: "./files/THOMYRIS_SOPHOS_Procédure_vpn_connect_ssl.pdf",
       description: [
-        "Installation et configuration du client VPN Sophos Connect dans un environnement professionnel afin de permettre l’accès distant sécurisé à l’infrastructure réseau.",
-        "Établissement du tunnel sécurisé et validation de l’accès aux ressources réseau et applications autorisées.",
+        "Installation et configuration du client VPN Sophos Connect afin de permettre un accès distant sécurisé au réseau de l’entreprise.",
+        "Établissement du tunnel VPN, authentification utilisateur et vérification de l’accès aux ressources internes autorisées.",
       ],
     },
     {
-      name: "Sécurisation des accès - Authentification forte Sophos (OTP)",
+      name: "Sécurisation des accès - Authentification forte Sophos OTP",
       date: "2026",
       pdf: "./files/THOMYRIS - SOPHOS - Initialisation authentification à double facteur.pdf",
       description: [
-        "Mise en place de l’authentification forte (One-Time Password) sur un firewall Sophos afin de renforcer la sécurité des accès utilisateurs.",
-        "Configuration de l’authentification à double facteur via le UserPortal.",
+        "Mise en place de l’authentification forte par OTP sur un pare-feu Sophos.",
+        "Configuration de la double authentification via le User Portal afin de renforcer la sécurité des accès utilisateurs.",
       ],
     },
     {
-      name: "Création Logo - Lycée Saint Jacques de Compostelle",
-      date: "2026",
-      pdf: "./files/Design sans titre.png",
-      description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
-      ],
-    },
-    {
-      name: "WiFi - Aruba Instant On",
+      name: "Wi-Fi - Aruba Instant On",
       date: "2026",
       pdf: "./files/THOMYRIS - ARUBA WIFI.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Configuration et administration de bornes Wi-Fi Aruba Instant On dans un environnement professionnel.",
+        "Création des réseaux Wi-Fi, gestion des SSID, sécurisation des accès et validation de la couverture réseau.",
       ],
     },
     {
-      name: "Fiche procédure - Veeam",
+      name: "Fiche de procédure - Veeam",
       date: "2025",
       pdf: "./files/fiche-de-procedure-config-sauvegarde.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Configuration d’une solution de sauvegarde avec Veeam.",
+        "Création des tâches de sauvegarde, paramétrage des destinations, planification et vérification de la restauration des données.",
       ],
     },
     {
-      name: "Procédure d’installation - GLPI Debian Console",
+      name: "Procédure d’installation - GLPI sur Debian",
       date: "2025",
       pdf: "./files/Procédure d’installation de GLPI sur Debian Console.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Installation de GLPI sur un serveur Debian en ligne de commande.",
+        "Configuration du serveur web, de la base de données, des dépendances PHP et finalisation de l’installation via l’interface web.",
       ],
     },
     {
-      name: "Fiche procédure — Référencement Web",
+      name: "Fiche de procédure - Référencement Web",
       date: "2026",
       pdf: "./files/Fiche procédure — Référencement Web.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Mise en place d’actions de référencement naturel pour améliorer la visibilité d’un site web.",
+        "Optimisation des contenus, des balises, de la structure des pages et vérification des bonnes pratiques SEO.",
       ],
     },
     {
       name: "Fiche de procédure - Mise en place d’un serveur DHCP",
-      date: "2026",
+      date: "2025",
       pdf: "./files/Fiche de procédure _ Mise en place d’un serveur DHCP sous Windows Server 2012.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Installation et configuration du rôle DHCP sur Windows Server 2012.",
+        "Création d’une étendue d’adresses IP, configuration des options DHCP et test d’attribution automatique sur les postes clients.",
       ],
     },
     {
       name: "Fiche de procédure - Snipe-IT",
-      date: "2026",
+      date: "2025",
       pdf: "./files/Fiche de procédure Snipe-IT.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Installation et configuration de Snipe-IT pour la gestion du parc informatique.",
+        "Création des catégories, ajout des équipements, suivi des affectations et amélioration de la traçabilité du matériel.",
       ],
     },
     {
@@ -981,8 +971,8 @@ function Projects() {
       date: "2025",
       pdf: "./files/Fiche de procédure - Mise en place du service DNS.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Installation et configuration du service DNS sur Windows Server.",
+        "Création des zones DNS, ajout des enregistrements nécessaires et vérification de la résolution de noms sur le réseau.",
       ],
     },
     {
@@ -990,26 +980,26 @@ function Projects() {
       date: "2025",
       pdf: "./files/Fiche de procédure - Installation et paramétrage du client FOG.pdf",
       description: [
-        "Enregistrement et administration des bornes WiFi Aruba via la plateforme HPE GreenLake en mode MSP.",
-        "Configuration et sécurisation des réseaux WiFi internes et invités : SSID, VLAN, portail captif, filtrage, mises à jour.",
+        "Installation et configuration du client FOG sur des postes informatiques.",
+        "Préparation des postes pour la gestion centralisée, le déploiement d’images et l’inventaire matériel.",
       ],
     },
     {
-      name: "Sécurité des postes - Sophos Endpoint (Cryptoprotect)",
+      name: "Sécurité des postes - Sophos Endpoint Cryptoprotect",
       date: "2026",
       pdf: "./files/THOMYRIS_SOPHOS_Cryptoprotect.pdf",
       description: [
         "Déploiement et administration de Sophos Endpoint via Sophos Central.",
-        "Gestion des agents, protection antialtération et compatibilités systèmes.",
+        "Configuration de la protection des postes, gestion des agents, protection antialtération et vérification de l’état de sécurité.",
       ],
     },
     {
-      name: "Messagerie - Configuration IMA",
+      name: "Messagerie - Configuration IMAP",
       date: "2026",
       pdf: "./files/IMAP_Configuration_Mail.pdf",
       description: [
-        "Configuration de boîtes mail via Outlook (IMAP/SMTP).",
-        "Gestion de la sécurité, authentification et synchronisation.",
+        "Configuration d’une boîte mail en IMAP/SMTP sur un client de messagerie.",
+        "Paramétrage des serveurs entrant et sortant, authentification, synchronisation et tests d’envoi/réception.",
       ],
     },
   ];
