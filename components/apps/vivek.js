@@ -671,7 +671,7 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "GSB 4.4 - WebLab",
+      name: "GSB 4.4 - WebLab GSB",
       date: "2026",
       pdf: "./files/AP4_synthetique_10_pages.pdf",
       description: [
@@ -764,6 +764,69 @@ function Projects() {
       name: "Switch - Aruba",
       date: "2026",
       pdf: "./files/THOMYRIS - ARUBA - INITIALISATION SWITCH ARUBA INSTANT ON_V4.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "TP - Mise en haute disponibilité",
+      date: "2026",
+      pdf: "./files/TP_Haute_Disponibilité.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "Projet - Renouvellement du parc Informatique",
+      date: "2025",
+      pdf: "./files/Procédure_renouvellement_parc_informatique.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "TP - Cloud privé, Cloud Public",
+      date: "2026",
+      pdf: "./files/Cloud privé et cloud public.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "Mémento - 3CX",
+      date: "2026",
+      pdf: "./files/Mémento 3CX — Téléphonie IP _ PBX.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "Mémento - Switch Cisco",
+      date: "2026",
+      pdf: "./files/Mémento Cisco.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "AP3.4 - Weblab GSB (WEB et PHP)",
+      date: "2026",
+      pdf: "./files/Fiche_procédure_WEB_GSB.pdf",
+      description: [
+        "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
+        "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
+      ],
+    },
+    {
+      name: "AP3.4 - Weblab GSB (BDD)",
+      date: "2026",
+      pdf: "./files/Fiche_procédure_BDD_GSB.pdf",
       description: [
         "Configuration d’un switch Aruba en environnement professionnel dans le cadre du déploiement d’une infrastructure réseau pour une collectivité territoriale.",
         "Mise en place des VLANs, configuration des ports (access/trunk), routage inter-VLAN, paramétrage des règles de sécurité (ACL), activation des mécanismes de contrôle d’accès (802.1X), tests de connectivité et sécurisation des flux entre les différents segments du réseau.",
