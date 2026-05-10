@@ -716,11 +716,20 @@ function Projects() {
     },
     {
       name: "Création de logo - Lycée Saint-Jacques de Compostelle",
-      date: "2026",
+      date: "2025",
       pdf: "./files/Design sans titre.png",
       description: [
         "Création d’un logo dans le cadre d’un projet lié au lycée Saint-Jacques de Compostelle.",
         "Travail de conception graphique, choix visuel et production d’un support de communication.",
+      ],
+    },
+    {
+      name: "Mémento - WordPress",
+      date: "2026",
+      pdf: "./files/Mémento WordPress.pdf",
+      description: [
+        "Accès à l’administration, pages, articles, thèmes, extensions et réglages principaux.",
+        "Présentation des bonnes pratiques de base pour gérer un site WordPress.",
       ],
     },
     {
